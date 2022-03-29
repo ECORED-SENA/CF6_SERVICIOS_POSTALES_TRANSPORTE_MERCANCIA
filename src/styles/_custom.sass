@@ -1,0 +1,61 @@
+.titulo-principal.color-acento-contenido
+  span
+    color: $white !important
+.hoverScale
+  transition: transform .3s ease-in-out
+  &:hover
+    transform: scale(1.1)
+.hoverScale2
+  transition: all .3s ease-in-out
+  &:hover
+    transform: scale(1.1)
+    background-color: #a4a3ff
+.bg--a-1
+  background-color: #acfcff
+.texto-seis-alt
+  position: relative
+  p
+    margin-left: 20px
+  &:before
+    content: ' '
+    display: block
+    width: 4px
+    height: 21px
+    background-color: $color-primario
+    position: absolute
+    left: 0
+    top: 0
+  &.color-primario
+    &:before
+      background-color: $color-primario
+  &.color-secundario
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    &:before
+      background-color: $color-acento-contenido
+  &.color-acento-botones
+    &:before
+      background-color: $color-acento-botones
+.bg-3-claro
+  background-color: #ffcec9 !important
+.img-rounded
+  img 
+    border-radius: 20px
+.slyder-a__bullets__item
+  background-color: transparent 
+  border: 3px solid #5263e1
+.slyder-a__bullets__item--active
+  background-color: #5263e1
+.linea-tiempo-d__item__number
+  width: 67px
+  height: 67px
+  font-size: 24px
+  font-weight: bold
+.linea-tiempo-d__item__content__title
+  font-size: 17px
+  font-weight: bold
+.linea-tiempo-d__item__dots:after
+  border-color: #b1b0f5
+.linea-tiempo-d__item__number
+  background-color: #ff8578

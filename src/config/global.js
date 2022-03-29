@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Atención PQR',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'Peticiones, Quejas y Reclamos, orienta la investigación prospectiva de la sensibilidad de los clientes respecto de los servicios prestados mediante procedimientos y normas establecidos. PQR establece los parámetros de mejora continua del proceso, definiendo cuales son las áreas de oportunidad de mejora de los procesos, su logística, registro y seguimiento. Estos lineamientos estipulan el paso a paso del proceso en PQR.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -24,116 +23,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Alistamiento de pedidos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Productos',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Planificación de pedidos',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Documentos asociados al alistamiento y almacenaje',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Zonas del almacén ',
+            hash: 't_1_4',
           },
         ],
       },
@@ -141,44 +56,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Gestión de pedidos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Organización de pedidos',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Dispositivos de apoyo',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Elaboración de registros',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
           },
         ],
       },
@@ -186,44 +83,43 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Verificación de la mercancía',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Servicio, mercancía y objeto postal',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Métodos de verificación',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Clasificación de mercancía de acuerdo a novedad',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Clasificación de tejidos',
+            titulo: 'Herramientas digitales',
             hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
+            titulo: 'Generalidades bases de datos',
             hash: 't_3_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.6',
-            titulo: 'Procesos textiles',
+            titulo: 'Reporte de novedades e inconsistencias',
             hash: 't_3_6',
           },
         ],
@@ -270,140 +166,131 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+      referencia: 'Campo, A. (2013). Operaciones de almacenaje. McGraw-Hill.',
+      link: '',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Colombia compra eficiente (2011). Guía para la codificación de bienes y servicios. Gobierno Nacional de Colombia',
+      link: '',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books.',
+      link: '',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Gómez, J.M. (2013). Gestión Logística y Comercial. McGraw-Hill.',
+      link: '',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Instituto Colombiano de Normas Técnicas y Certificación (2005). Fundamentos y Vocabulario. (ISO 9000).',
+      link: '',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Ministerio de Tecnologías de la Información y las Comunicaciones (MINTIC, 2020). Plan de Modernización Sector Postal 2020_2024. MinTIC.',
+      link: '',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'MINTIC (2015). Decreto Único Reglamentario sector TIC. Gobierno Nacional.',
+      link: '',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Monzó, J. (2005). Almacenaje de productos. McGraw-Hill Interamericana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Peña, A. & Hernández, R. (2018). Cadena de suministro 4.0. Beneficios y retos de las tecnologías. Marge Books.',
+      link: '',
+    },
+    {
+      referencia:
+        'Rubio, J. (2013). Gestión y pedido de stock. Ministerio de Educación y Formación Profesional de España.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Consolidación',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Agrupación de mercancías procedentes de diferentes zonas de picking, en envíos más pequeños. Permite un ahorro en costos de transporte',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Encomienda',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Servicio obligatorio para el Operador Postal Oficial o Concesionario de correo, que consiste en la recepción, clasificación, transporte y entrega no urgente, de objetos Postales, mercancías, paquetes o cualquier artículo de permitida circulación en el territorio nacional o internacional, con o sin valor declarado, con peso máximo de hasta un peso de 30 kg.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: '<em>Layout</em>',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Etapa previa al diseño, la organización distribuye el espacio sobre plano e identifica las diferentes zonas de la bodega',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Logística',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Conjunto de actividades necesarias para prestar un servicio, desde la compra, empaquetado, transporte, envío y entrega de un producto al cliente final.  Cómo llevo de la manera más eficiente y eficaz la mercancía a los clientes.',
     },
     {
-      termino: 'Moda',
+      termino: 'Nota de entrega',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Documento que acredita la entrega de la mercancía en las condiciones inicialmente pactadas',
     },
     {
-      termino: 'Diseña',
+      termino: '<em>Packing</em>',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Actividad que realiza un equipo de operarios al momento de preparar los pedios, consiste en la recogida y consolidación de cargas no unitarias que componen el pedido de un cliente',
     },
     {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+      termino: '<em>Picking</em>',
+      significado: 'Acondicionamiento y empaque de pedidos',
     },
     {
-      termino: 'Tipología',
+      termino: 'Servicio postal',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Prestación de servicio en recepción, clasificación, transporte y entrega de mercancía',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'SGA',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Sistema de Gestión del Almacén, encargado de gestionar ubicaciones de los objetos o mercancía postal, los equipos y talento humano.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino:
+        'UNSPSC - <em>The United Nations Standard Products and Services Code</em>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Código Estándar de Productos y Servicios de Naciones Unidas:  Metodología uniforme de codificación utilizada para clasificar productos y servicios fundamentada en un arreglo jerárquico y en una estructura lógica.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Gobierno de Colombia. (2011). Guía para la codificación de bienes y servicios de acuerdo con el código estándar de productos y servicios de Naciones Unidas, V.14.080. ',
+      tipo: 'Guía',
+      descarga: '/downloads/documento1.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Decreto 1078 de 2015. [Ministerio de las Tecnologías de la información y las comunicaciones]. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Tecnologías de la Información y las Comunicaciones. Mayo 26 de 2015.',
+      tipo: 'Decreto',
+      descarga: '/downloads/documento2.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Monzó, J. (2005). Almacenaje de productos. McGraw-Hill Interamericana.',
+      tipo: 'Libro (capitulo 1)',
+      descarga: '/downloads/documento4.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto:
+        'Ministerio de las Tecnologías de la información y las comunicaciones (2020). Plan de Modernización, sector postal 2020-2024.  ',
+      tipo: 'Plan',
+      descarga: '/downloads/documento3.pdf',
     },
   ],
   creditos: {
@@ -421,6 +308,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Gloria Esperanza Silva Guarín',
+        cargo: 'Experta temática',
+        centro: 'Centro de Gestión Industrial – Distrito capital',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro agropecuario La Granja, Regional Tolima',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Distrito capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -430,18 +339,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

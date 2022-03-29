@@ -7,12 +7,15 @@
         span 1
       h1 Alistamiento de pedidos
 
+    separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Productos     
     
+    separador
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Planificación de pedidos 
    
+    separador
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Documentos asociados al alistamiento y almacenaje
     

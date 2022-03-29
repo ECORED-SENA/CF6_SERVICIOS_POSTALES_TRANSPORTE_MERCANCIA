@@ -112,61 +112,26 @@ export default {
 
 
 .imagen_flotante
-  &_1
-    animation: float1 3s ease-in-out infinite alternate
-    position: absolute
-    width: 70px
-    bottom: 80px
-    left: -3%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    width: 200px
+    width: 300px
     top: 30px
     box-shadow:
-    left: -4%
+    left: -9%
   &_3
     animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
-    width: 90px
+    width: 120px
     bottom: -7%
-    left: 30%
-  &_4
-    animation: float1 4s ease-in-out infinite alternate
-    position: absolute
-    width: 90px
-    top: -5%
-    left: 55%
-    z-index: 99
-  &_5
-    animation: float1 3.9s ease-in-out infinite alternate
-    position: absolute
-    width: 40px
-    top: 3%
-    left: 30%
-    z-index: 99
-  &_6
-    filter: blur(2px)
-    animation: float1 2.7s ease-in-out infinite alternate
-    position: absolute
-    width: 167px
-    top: 30%
-    right: 3%
-    z-index: 99
-  &_7
-    animation: float1 2.5s ease-in-out infinite alternate
-    position: absolute
-    width: 50px
-    bottom: 10%
-    right: 3%
-    z-index: 99
+    left: 20%
   &_8
     filter: blur(1px)
 
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    width: 186px
-    top: 5%
+    width: 196px
+    top: 35%
     right: -6%
     z-index: 99
 

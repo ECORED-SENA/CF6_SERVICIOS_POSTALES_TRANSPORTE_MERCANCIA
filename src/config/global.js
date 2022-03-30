@@ -90,11 +90,25 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema4',
+        nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Contenedores',
+        titulo: 'Estrategias de servicio al cliente',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Ejecutar procedimiento de manejo de PQRS',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Ciclo del sistema de PQRS',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [

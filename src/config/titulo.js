@@ -1,1 +1,2 @@
-module.exports = 'Consolidación de objetos postales y mercancías'
+module.exports =
+  'Componente Formativo con un nombre extremadamente largo y extenso'

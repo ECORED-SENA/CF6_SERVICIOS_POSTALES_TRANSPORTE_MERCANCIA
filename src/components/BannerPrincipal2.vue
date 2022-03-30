@@ -1,27 +1,28 @@
 <template lang="pug">
 .banner-principal
-  .container.tarjeta.position-relative(
+  .container.tarjeta(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center.g-0
-      .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
+    .row.banner-principal__row
+      .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+        .imagen_flotante_1: img(src='@/assets/curso/banner/img01.svg')
+        .imagen_flotante_2: img(src='@/assets/curso/banner/img02.svg')
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
-        .col-lg-12
-          .banner-principal__descripcion
-            p.mb-0(v-html="globalData.descripcionCurso")
+        .banner-principal__descripcion
+          .imagen_flotante_3: img(src='@/assets/curso/banner/img03.svg')
+          p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-            span.me-1 Ver más
-            i.fas.fa-angle-right
+            span.me-1.text-white Ver más
+            i.fas.fa-angle-right.text-white
 
-      .d-none.d-lg-block.col-lg-6.px-0.banner-principal__img
-        img(:src="globalData.imagenBannerPrincipal" style="width: 606px")
-    .imagen_flotante_2: img(src="@/assets/curso/float2.png")
-    .imagen_flotante_3: img(src="@/assets/curso/float3.png")
-    .imagen_flotante_8: img(src="@/assets/curso/float1.png")
-  
-
+      .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
+        .contenedor-imagenes
+          //- .imagen_flotante_3: img(src='@/assets/curso/banner/img03.svg')
+          //- .imagen_flotante_4: img(src='@/assets/curso/float4.svg')
+          //- .imagen_flotante_5: img(src='@/assets/curso/float5.svg')
+          img(:src="globalData.imagenBannerPrincipal")
 </template>
 
 <script>
@@ -38,17 +39,6 @@ export default {
 </script>
 
 <style lang="sass">
-.fondo-contenido
-  position: absolute
-  padding: 0px
-  z-index: 2
-  height: 100%
-  width: 100%
-.banner-principal__info
-  padding-left: 80px  !important
-  z-index: 3
-
-
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
@@ -70,6 +60,7 @@ export default {
 
   &__componente
     margin-bottom: 20px
+    z-index: 1000
     h1
       line-height: 1.1em
 
@@ -77,6 +68,7 @@ export default {
         font-size: 2em
 
   &__descripcion
+    z-index: 1000
     margin-bottom: 20px
 
   &__row
@@ -91,7 +83,6 @@ export default {
           padding-right: 3rem!important
 
   &__img
-    animation: scale 5s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
       padding-bottom: 1.5rem
@@ -109,50 +100,53 @@ export default {
       @media (min-width: $bp-min-sm)
         padding-top: 3rem!important
         padding-bottom: 3rem!important
-
-
+.contenedor-imagenes
+  position: relative
 .imagen_flotante
+  &_1
+    animation: float 3s ease-out infinite alternate
+    position: absolute
+    width: 240px
+    top: 1%
+    left: -10%
   &_2
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float 2s ease-out infinite alternate
+    animation-delay: 1s
     position: absolute
-    width: 300px
-    top: 30px
-    box-shadow:
-    left: -9%
+    transform-origin: top
+    width: 130px
+    left: 17%
+    bottom: -15%
   &_3
-    animation: float1 3.8s ease-in-out infinite alternate
+    animation: float 2s ease-out infinite alternate
+    animation-delay: 0.8s
     position: absolute
-    width: 120px
-    bottom: -7%
-    left: 20%
-  &_8
-    filter: blur(1px)
-
-    animation: float1 3s ease-in-out infinite alternate
+    transform-origin: top
+    width: 180px
+    right: -5%
+    top: 30%
+    @media screen and (max-width: 990px)
+      display: none
+  &_4
+    animation: float 2s ease-out infinite alternate
+    animation-delay: 1.5s
     position: absolute
-    width: 196px
-    top: 35%
-    right: -6%
-    z-index: 99
+    transform-origin: top
+    width: 52px
+    left: 78%
+    top: 8%
+  &_5
+    animation: float 2s ease-out infinite alternate
+    animation-delay: 0.8s reverse
+    position: absolute
+    transform-origin: top
+    width: 42px
+    left: 90%
+    bottom: 15%
 
-@keyframes float1
+@keyframes float
   0%
-    transform: translateY(20px)
-
+    transform: translateY(0)
   100%
-    transform: translateY(0px)
-@keyframes scale
-  0%
-    transform: scale(1.1)
-
-  100%
-    transform: scale(1)
-
-
-@media (max-width: $bp-max-md)
-  .fondo-contenido
-    display: none
-  .fondo-contenido2
-    background-repeat: no-repeat
-    background-size: cover
+    transform: translateY(-15px)
 </style>

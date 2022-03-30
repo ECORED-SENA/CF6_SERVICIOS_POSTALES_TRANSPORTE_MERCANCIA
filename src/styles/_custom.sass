@@ -1,61 +1,106 @@
-.titulo-principal.color-acento-contenido
-  span
-    color: $white !important
-.hoverScale
-  transition: transform .3s ease-in-out
-  &:hover
-    transform: scale(1.1)
-.hoverScale2
-  transition: all .3s ease-in-out
-  &:hover
-    transform: scale(1.1)
-    background-color: #a4a3ff
-.bg--a-1
-  background-color: #acfcff
-.texto-seis-alt
-  position: relative
-  p
-    margin-left: 20px
-  &:before
-    content: ' '
-    display: block
-    width: 4px
-    height: 21px
-    background-color: $color-primario
-    position: absolute
-    left: 0
-    top: 0
-  &.color-primario
-    &:before
-      background-color: $color-primario
-  &.color-secundario
-    &:before
-      background-color: $color-secundario
-  &.color-acento-contenido
-    &:before
-      background-color: $color-acento-contenido
-  &.color-acento-botones
-    &:before
-      background-color: $color-acento-botones
-.bg-3-claro
-  background-color: #ffcec9 !important
-.img-rounded
-  img 
-    border-radius: 20px
-.slyder-a__bullets__item
-  background-color: transparent 
-  border: 3px solid #5263e1
-.slyder-a__bullets__item--active
-  background-color: #5263e1
-.linea-tiempo-d__item__number
-  width: 67px
-  height: 67px
-  font-size: 24px
-  font-weight: bold
-.linea-tiempo-d__item__content__title
-  font-size: 17px
-  font-weight: bold
-.linea-tiempo-d__item__dots:after
-  border-color: #b1b0f5
-.linea-tiempo-d__item__number
-  background-color: #ff8578
+// General
+.animated
+  -webkit-animation-duration: 1s
+  animation-duration: 1s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+
+@keyframes fadeIn
+  from
+    opacity: 0
+
+  to
+    opacity: 1
+
+.fadeIn
+  animation-name: fadeIn
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner/fondo-banner-interno.jpg") !important
+  background-repeat: no-repeat  
+  
+.titulo-principal__numero > span
+  color: white !important
+
+.img90
+  max-width: 90px !important  
+
+.img180
+  max-width: 180px !important  
+
+.img450
+  max-width: 450px !important  
+
+.img600
+  max-width: 600px !important  
+
+.img700
+  max-width: 700px !important  
+
+.cajon p
+  padding-bottom: 0 
+  margin-bottom: 0
+
+.cajon.color-primario
+  background-color: rgba(#FFDE96, 0.5)
+
+.cajon.color-acento-contenido  
+  background-color: rgba($color-acento-contenido, 0.5)  
+
+.bg-color-acento-contenido  
+  background-color: $color-acento-contenido
+
+.bg-color-acento-contenido-opa
+  background-color: rgba($color-acento-contenido, 0.6) !important
+
+
+// Banner
+.banner-principal .container.tarjeta
+  @media screen and (max-width: 990px)      
+    background-image: url("../assets/curso/banner/fondo-banner-solo.svg") !important
+    background-repeat: no-repeat  
+ 
+.banner-principal__img
+  align-self: stretch
+  background-position: 30% 80%, 50% 50%
+  background-repeat: no-repeat, no-repeat
+  animation-name: cambiar
+  animation-duration: 5s
+  animation-iteration-count: infinite
+  animation-play-state: running
+  animation-timing-function: steps(1, end)
+  img
+    display: none !important
+  @media screen and (max-width: 1499px)    
+    background-size: 80%
+    background-position: -32% 78%, 50% 50%
+
+.banner-principal__img:hover
+  animation-play-state: paused
+
+@keyframes cambiar
+  0%
+    background-image: url("../assets/curso/banner/1.png")
+  25%
+    background-image: url("../assets/curso/banner/2.png")
+  50%
+    background-image: url("../assets/curso/banner/3.png")
+  75%
+    background-image: url("../assets/curso/banner/4.png")
+  100%
+    background-image: url("../assets/curso/banner/1.png")
+
+
+// Tema 1 
+
+
+// Tema 2
+
+
+
+// Tema 3
+ 
+// Tema 4
+
+
+ 

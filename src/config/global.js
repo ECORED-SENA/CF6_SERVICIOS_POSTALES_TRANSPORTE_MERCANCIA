@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Atención PQR',
     descripcionCurso:
       'Peticiones, Quejas y Reclamos, orienta la investigación prospectiva de la sensibilidad de los clientes respecto de los servicios prestados mediante procedimientos y normas establecidos. PQR establece los parámetros de mejora continua del proceso, definiendo cuales son las áreas de oportunidad de mejora de los procesos, su logística, registro y seguimiento. Estos lineamientos estipulan el paso a paso del proceso en PQR.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    // imagenBannerPrincipal: require('@/assets/curso/banner/imagen-banner.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/banner/fondo-banner.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -23,32 +23,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Alistamiento de pedidos',
+        titulo: 'Manejo de PQRS',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Productos',
+            titulo: 'Atención de peticiones, quejas y reclamos',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Planificación de pedidos',
+            titulo: 'Manejo de sugerencias y recomendaciones',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Documentos asociados al alistamiento y almacenaje',
+            titulo: 'Valoración de las felicitaciones',
             hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Zonas del almacén ',
-            hash: 't_1_4',
           },
         ],
       },
@@ -56,26 +50,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Gestión de pedidos',
+        titulo: 'Caracterización del servicio',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Organización de pedidos',
+            titulo: 'Servicios y solicitudes en Aeromensajería',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Dispositivos de apoyo',
+            titulo: 'Portafolio de servicios, canales y trazabilidad',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Elaboración de registros',
-            hash: 't_2_3',
           },
         ],
       },
@@ -83,46 +71,30 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Verificación de la mercancía',
+        titulo: 'Factores de atención al cliente',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Servicio, mercancía y objeto postal',
+            titulo:
+              'Diferencia entre servicio, atención y experiencia de cliente',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Métodos de verificación',
+            titulo: 'Ciclo de servicio al cliente',
             hash: 't_3_2',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de mercancía de acuerdo a novedad',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Herramientas digitales',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Generalidades bases de datos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Reporte de novedades e inconsistencias',
-            hash: 't_3_6',
-          },
         ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Contenedores',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -166,131 +138,107 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Campo, A. (2013). Operaciones de almacenaje. McGraw-Hill.',
-      link: '',
+      referencia:
+        'Arrieta Posada, J. (Junio de 2011). <em>SCIELO</em>. Obtenido de Aspectos a considerar para una buena gestión en los almacenes de las empresas (CEDIS). <em>Journal of Economics, Finance and Administrative Science, 16(30).</em>',
+      link:
+        'http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S2077-18862011000100007',
     },
     {
       referencia:
-        'Colombia compra eficiente (2011). Guía para la codificación de bienes y servicios. Gobierno Nacional de Colombia',
-      link: '',
+        'Campo, V., A., Hervás, E., A., y Revilla, R., M. (2013). <em>Operaciones de almacenaje.</em> McGraw Hill.',
     },
     {
       referencia:
-        'Flamarique, S. (2017). Gestión de operaciones de almacenaje. Marge Books.',
-      link: '',
+        'Correa Espinal, A., & Gómez Montoya , R. (Septiembre de 2009). <em>Tecnologías de la información y comunicación en la gestión de almacenes</em>.',
+      link: 'http://www.scielo.org.co/pdf/eg/v26n117/v26n117a09.pdf',
     },
     {
       referencia:
-        'Gómez, J.M. (2013). Gestión Logística y Comercial. McGraw-Hill.',
-      link: '',
+        'Escudero, S., J. (2019). <em>Logística de almacenamiento</em>. Paraninfo.',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación (2005). Fundamentos y Vocabulario. (ISO 9000).',
-      link: '',
+        'Flamarique, S. (2018). <em>Gestión de existencias en el almacén</em>. Marge Books.',
+      link:
+        'https://books.google.com.co/books?id=CDd8DwAAQBAJ&printsec=frontcover&dq=gestion+de+existencias+en+el+almacen&hl=es&sa=X&redir_esc=y#v=onepage&q=gestion%20de%20existencias%20en%20el%20almacen&f=false',
     },
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones (MINTIC, 2020). Plan de Modernización Sector Postal 2020_2024. MinTIC.',
-      link: '',
+        'Gómez, A., Iglesias, M., De la Fuente, D., y Menéndez , M. (2008). <em>Estado del arte en políticas de ubicación de productos en almacén</em>. II International Conference on Industrial Engineering and Industrial Management XII Congreso de Ingeniería de Organización September 3-5, 2008, Burgos, Spain.',
+      link:
+        'http://adingor.es/congresos/web/uploads/cio/cio2008/LOGISTIC//1095-1102.pdf',
     },
     {
       referencia:
-        'MINTIC (2015). Decreto Único Reglamentario sector TIC. Gobierno Nacional.',
-      link: '',
+        'Mauleón, M. (2003). <em>Sistemas de alamacenaje y picking.</em> Ediciones Díaz de Santos.',
     },
     {
       referencia:
-        'Monzó, J. (2005). Almacenaje de productos. McGraw-Hill Interamericana.',
-      link: '',
+        'Pérez, H., M. (2014). <em>Almacenamiento de materiales.</em> Marge Books.',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=fnPDDQAAQBAJ&oi=fnd&pg=PA11&dq=almacenamiento+&ots=lFsLWzq0fg&sig=HSAdBBne2sGEzlJRG55I-yoLvSA#v=onepage&q&f=false',
     },
     {
       referencia:
-        'Peña, A. & Hernández, R. (2018). Cadena de suministro 4.0. Beneficios y retos de las tecnologías. Marge Books.',
-      link: '',
-    },
-    {
-      referencia:
-        'Rubio, J. (2013). Gestión y pedido de stock. Ministerio de Educación y Formación Profesional de España.',
-      link: '',
+        'Rodríguez, R., R. (2015). Guía de seguridad en procesos de almacenamiento y manejo de cargas. Fremap.',
+      link:
+        'https://www.udc.es/arquivos/sites/udc/prl/procedementos/Guiaxseg.xalmacenam.xyxmanejoxcargas.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Consolidación',
+      termino: 'Almacenamiento',
       significado:
-        'Agrupación de mercancías procedentes de diferentes zonas de picking, en envíos más pequeños. Permite un ahorro en costos de transporte',
+        'utilización óptima de un espacio asignado para colocar una determinada cantidad de elementos o referencias.',
     },
     {
-      termino: 'Encomienda',
+      termino: 'Granel',
       significado:
-        'Servicio obligatorio para el Operador Postal Oficial o Concesionario de correo, que consiste en la recepción, clasificación, transporte y entrega no urgente, de objetos Postales, mercancías, paquetes o cualquier artículo de permitida circulación en el territorio nacional o internacional, con o sin valor declarado, con peso máximo de hasta un peso de 30 kg.',
+        'mercancía transportada sin envase o embalaje, generalmente referido a minerales, semillas, abonos, líquidos, cementos, etc.',
+    },
+    {
+      termino: 'Inventario',
+      significado:
+        'acumulación de cualquier producto o artículo usado en la organización.',
     },
     {
       termino: '<em>Layout</em>',
-      significado:
-        'Etapa previa al diseño, la organización distribuye el espacio sobre plano e identifica las diferentes zonas de la bodega',
+      significado: 'disposición en planta de las diferentes zonas de almacén.',
     },
     {
       termino: 'Logística',
       significado:
-        'Conjunto de actividades necesarias para prestar un servicio, desde la compra, empaquetado, transporte, envío y entrega de un producto al cliente final.  Cómo llevo de la manera más eficiente y eficaz la mercancía a los clientes.',
+        'proceso de planear, implementar y controlar efectiva y eficientemente el flujo y almacenamiento de bienes, servicios e información relacionada del punto de origen al punto de consumo con el propósito de cumplir los requisitos del cliente.',
     },
     {
-      termino: 'Nota de entrega',
+      termino: '<em>Pallet</em>',
       significado:
-        'Documento que acredita la entrega de la mercancía en las condiciones inicialmente pactadas',
+        'plataforma reutilizable usada en la estiba de carga para facilitar el aprovechamiento del espacio de almacenamiento y de bodega de transporte, y las operaciones de manipulación.',
     },
     {
-      termino: '<em>Packing</em>',
+      termino: '<em>Stock</em>',
       significado:
-        'Actividad que realiza un equipo de operarios al momento de preparar los pedios, consiste en la recogida y consolidación de cargas no unitarias que componen el pedido de un cliente',
+        'producto almacenado listo para ser vendido, distribuido o usado.',
     },
     {
-      termino: '<em>Picking</em>',
-      significado: 'Acondicionamiento y empaque de pedidos',
-    },
-    {
-      termino: 'Servicio postal',
+      termino: 'Unidad de carga',
       significado:
-        'Prestación de servicio en recepción, clasificación, transporte y entrega de mercancía',
-    },
-    {
-      termino: 'SGA',
-      significado:
-        'Sistema de Gestión del Almacén, encargado de gestionar ubicaciones de los objetos o mercancía postal, los equipos y talento humano.',
-    },
-    {
-      termino:
-        'UNSPSC - <em>The United Nations Standard Products and Services Code</em>',
-      significado:
-        'Código Estándar de Productos y Servicios de Naciones Unidas:  Metodología uniforme de codificación utilizada para clasificar productos y servicios fundamentada en un arreglo jerárquico y en una estructura lógica.',
+        'presentación de las mercaderías objeto de transporte, de manera que puedan ser manipuladas por medios mecánicos.',
     },
   ],
   complementario: [
     {
       texto:
-        'Gobierno de Colombia. (2011). Guía para la codificación de bienes y servicios de acuerdo con el código estándar de productos y servicios de Naciones Unidas, V.14.080. ',
-      tipo: 'Guía',
-      descarga: '/downloads/documento1.pdf',
+        'Gómez, A., Iglesias, M., De la Fuente, D., y Menéndez, M. (2008). <em>Estado del arte en políticas de ubicación de productos en almacén.</em>',
+      tipo: 'Artículo',
+      link:
+        'http://adingor.es/congresos/web/uploads/cio/cio2008/LOGISTIC//1095-1102.pdf',
     },
     {
       texto:
-        'Decreto 1078 de 2015. [Ministerio de las Tecnologías de la información y las comunicaciones]. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Tecnologías de la Información y las Comunicaciones. Mayo 26 de 2015.',
-      tipo: 'Decreto',
-      descarga: '/downloads/documento2.pdf',
-    },
-    {
-      texto:
-        'Monzó, J. (2005). Almacenaje de productos. McGraw-Hill Interamericana.',
-      tipo: 'Libro (capitulo 1)',
-      descarga: '/downloads/documento4.pdf',
-    },
-    {
-      texto:
-        'Ministerio de las Tecnologías de la información y las comunicaciones (2020). Plan de Modernización, sector postal 2020-2024.  ',
-      tipo: 'Plan',
-      descarga: '/downloads/documento3.pdf',
+        'Correa, A., Gómez, R., y Cano, J. (2009). <em>Gestión de almacenes y Tecnologías de la Información y Comunicación (TIC).</em>',
+      tipo: 'Artículo',
+      link: 'http://www.scielo.org.co/pdf/eg/v26n117/v26n117a09.pdf',
     },
   ],
   creditos: {
@@ -308,28 +256,6 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      {
-        nombre: 'Gloria Esperanza Silva Guarín',
-        cargo: 'Experta temática',
-        centro: 'Centro de Gestión Industrial – Distrito capital',
-      },
-      {
-        nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro agropecuario La Granja, Regional Tolima',
-      },
-      {
-        nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Revisora metodológica y pedagógica',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda',
-        cargo: 'Revisión y corrección de estilo',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica - Distrito capital',
-      },
     ],
     desarrolloProducto: [
       {
@@ -339,13 +265,18 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: ['Yuly Andrea Rey Quiñonez'],
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: ['Nombre 1', 'Nombre 2'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Camilo Andres Bolaño Rey',
+        nombre: 'Nombre',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

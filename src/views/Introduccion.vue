@@ -1,17 +1,21 @@
 <template lang="pug">
-.curso-main-container.introduccion
+.curso-main-container.introduccion.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 
-          i.fas.fa-info
+        span i
       h1 Introducción
-
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
+    p Las Peticiones, Quejas y Reclamos (PQR), orientan la investigación prospectiva de la sensibilidad de los clientes respecto de los servicios prestados mediante procedimientos y normas establecidos. A continuación, te invitamos a ver el siguiente video introductorio sobre las mismas:
+    br
+    br
+    
+    figure.mb-5
+      .video
+        iframe(width="942" height="530" src="https://www.youtube.com/embed/PSiBtkl75Hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+
 
 </template>
 

@@ -20,10 +20,37 @@
           picture
             img(src='@/assets/curso/tema1/img01.png', alt='Ubicación de mercancía', class='img-fluid')
 
+      .row
+          ul.lista-ul.lista-ul.lista-ul--color
+            li 
+              i.fas.fa-paper-plane 
+              p Mejora la imagen y la percepción, ofreciendo la atención con sistemas avanzados y a través de herramientas ofimáticas
 
+            li 
+              i.fas.fa-paper-plane 
+              p Reduce costos al disminuir congestiones 
 
+            li 
+              i.fas.fa-paper-plane 
+              p Disminuye en gran porcentaje la emisión de documentos escritos
+
+            li 
+              i.fas.fa-paper-plane 
+              p Reduce tiempos de llamadas telefónicas
+
+            li 
+              i.fas.fa-paper-plane 
+              p Se aumenta el seguimiento y control de atención a las PQR
+            
+            li 
+              i.fas.fa-paper-plane 
+              p Se dispone de un mejor canal de comunicación
     
-
+      .row
+        .titulo-sexto.color-acento-contenido
+            h5 Figura 1
+            span <i>Beneficio Automatización Proceso PQR</i>
+          
 
 </template>
 

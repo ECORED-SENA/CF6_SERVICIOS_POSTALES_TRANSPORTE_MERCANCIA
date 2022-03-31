@@ -249,7 +249,29 @@
           img(src='@/assets/curso/tema1/2.jpg', alt='', class='img-fluid')
           .margtx2
             p Refiere sugerir algo, en el ámbito comercial se puede decir que las recomendaciones enmarcan satisfacción en el servicio, la atención o el buen producto, implica que un cliente sugiere a otro la experiencia en el servicio, la atención o el producto porque su experiencia ha sido satisfactoria. 
+    separador
 
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3 Valoración de las felicitaciones
+
+    .contenedor.p-5.position-relative.mb-5(style='background-color: #FEF9F0')
+        .row.justify-content-center.py-5
+          .col-md-5
+            .rounded-3.overflow-hidden
+              figure.img-rounded
+                img(src='@/assets/curso/tema1/vec5.svg', alt='Texto que describa la imagen')
+          .col-md-5.mb-4.mb-md-0.mt-5
+            h4 Infografía:
+            h4 Valoración de las felicitaciones
+            .titulo-segundo.color-acento-contenido
+            p Las felicitaciones son muy importantes en las PQR, veamos la siguiente infografía.
+            .col-sm-auto
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Felicitaciones_CF06.pdf')" target="_blank")
+                span Ver más 
+                i.fas.fa-link
+    
+    .cajon.color-acento-contenido.p-4.mb-4
+      p Las manifestaciones de felicitaciones deben ser muy valoradas por la organización, aunque nacen en un principio por el servicio del colaborador, estas se traducen en imagen para la organización, confianza, credibilidad en la vocación por cumplir de forma eficiente las promesas presentadas el cliente al momento de tomar los servicios.
 
 
 </template>

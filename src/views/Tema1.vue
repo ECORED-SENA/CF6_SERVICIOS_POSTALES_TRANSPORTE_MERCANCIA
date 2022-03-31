@@ -198,6 +198,44 @@
     br     
     p Los siguientes recursos hacen referencia a las peticiones, quejas o reclamos, después de observarlos, analicemos las actitudes y acciones de los clientes frente a las situaciones
     separador
+
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2 Manejo de sugerencias y recomendaciones
+
+    .row.mb-5
+      .col.col-12.col-lg-4.position-relative
+        .sobre-flotante-t3
+          img.w-50(src='@/assets/curso/banner/img04.svg', class='img-fluid')
+        picture
+          img(src='@/assets/curso/tema1/img02.png', alt='Ubicación de mercancía', class='img-fluid')
+      .col.col-12.col-lg-8.pt-5
+        p Las PQR comprende unos paso a paso, dan inicio cuando el cliente, consumidor o usuario presenta la solicitud ante la entidad, el proveedor u organización, de esta manera se da apertura a la posibilidad de rectificar o subsanar las fallas que se presentaron en el servicio prestado y se construye el mecanismo de respuesta satisfactorio en pro del mejoramiento de la operatividad de la organización y la satisfacción del cliente.
+        p El asertividad en el manejo de las sugerencias y los reclamos hacen la diferencia entre conservar un cliente o perderlo, en el proceso de quejas y reclamaciones se debe dar prioridad las situaciones que afectan la fidelización de clientes, ante todo en el aspecto tiempo de atención.  
+
+    br
+    p Dentro de los procesos de PQR se recomienda acciones para realizar este proceso con asertividad, estos son:
+    br
+    .row
+      ul.lista-ul.lista-ul.lista-ul--color
+        li 
+          i.fas.fa-paper-plane 
+          p Escuchar el reclamo con atención, tener empatía
+
+        li 
+          i.fas.fa-paper-plane 
+          p Ser paciente, entender al usuario
+
+        li 
+          i.fas.fa-paper-plane 
+          p Tener pensamiento crítico, para encontrar la mejor alternativa
+
+        li 
+          i.fas.fa-paper-plane 
+          p Ser proactivo, buscar la manera de lograr un buen cierre de la situación, si es posible en corto tiempo
+    p Las sugerencias y recomendaciones son dos conceptos alineados en el propósito de mejora de un proceso o los procedimientos que lo conforman, la sugerencia nace como la manifestación de una propuesta o idea que puede ayudar a mejorar un proceso, la recomendación surge como satisfacción del servicio o atención recibida, sin embargo, cada uno, tiene una filosofía diferente. Por eso, las organizaciones dan administración a cada uno de los conceptos así:
+  
+
+
 </template>
 
 <script>

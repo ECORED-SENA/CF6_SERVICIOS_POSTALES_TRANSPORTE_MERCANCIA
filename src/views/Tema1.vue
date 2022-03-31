@@ -233,7 +233,23 @@
           i.fas.fa-paper-plane 
           p Ser proactivo, buscar la manera de lograr un buen cierre de la situación, si es posible en corto tiempo
     p Las sugerencias y recomendaciones son dos conceptos alineados en el propósito de mejora de un proceso o los procedimientos que lo conforman, la sugerencia nace como la manifestación de una propuesta o idea que puede ayudar a mejorar un proceso, la recomendación surge como satisfacción del servicio o atención recibida, sin embargo, cada uno, tiene una filosofía diferente. Por eso, las organizaciones dan administración a cada uno de los conceptos así:
-  
+    br 
+    .row
+      .col-6
+        .tarjeta(style='background-color: #FFDE96').bor
+          p.fw-bold.bor2 Sugerencias
+          img(src='@/assets/curso/tema1/1.jpg', alt='', class='img-fluid')
+          .margtx
+            p Las sugerencias tienen origen dual, esto significa que son endógeno y exógeno es decir que se presentan al interior y al exterior de la organización, es una observación sobre la forma de hacer algo, la sugerencia no es una obligación es una invitación a realizar o implementar una acción. 
+            p Las de sugerencias de carácter endógeno son originadas al interior de las organizaciones y obedecen principalmente a mejoras continuas requieren acciones correctivas de quienes ejecutan o definen los procesos.  Las sugerencias permiten determinan que hay falencias o posibilidades de mejora, recibir una sugerencia es informarnos de una situación. 
+
+      .col-6
+        .tarjeta(style='background-color: #FF8578').bor
+          p.fw-bold.bor2 Recomendaciones
+          img(src='@/assets/curso/tema1/2.jpg', alt='', class='img-fluid')
+          .margtx2
+            p Refiere sugerir algo, en el ámbito comercial se puede decir que las recomendaciones enmarcan satisfacción en el servicio, la atención o el buen producto, implica que un cliente sugiere a otro la experiencia en el servicio, la atención o el producto porque su experiencia ha sido satisfactoria. 
+
 
 
 </template>

@@ -156,60 +156,48 @@
       .py-4.py-md-5(titulo="Peticiones" :icono="require('@/assets/curso/tema1/1.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h4 Transpaletas
-            p Pueden transportar la carga a pequeñas distancias y elevarla algunos centímetros, son útiles para apoyar otros equipos y normalmente se encuentran en los muelles de carga y descarga. Se utilizan en almacenes con dimensiones reducidas y sin mucha altura.
-            p 
-              span.fw-bold a. Manuales: 
-              | se usan en las tareas de agrupación de pedidos y carga y descarga de vehículos.
-            p 
-              span.fw-bold b. Motorizados: 
-              | cuentas con un sistema eléctrico y permiten realizar recorridos más largos que el anterior y se utilizan para el mismo fin.
-
-          .col-md-4
-
+            h4 Peticiones
+          .cajon.color-primario.bg-3-claro.p-4.mb-4.col-11.esp2
+            p La Petición es demandar, pedir o solicitar algo que se requiere o se necesita, la petición se eleva ante una persona sea natural o jurídica, el proceso de petición hace referencia a dudas que se tiene de un procedimiento en alguna de sus etapas de ejecución, un cuestionamiento sobre algún paso o proceso no entendido. 
+          p Para todo proceso de petición, la respuesta debe ser clara y debe emitirse dentro de los tiempos establecidos por la ley, en algunas ocasiones y dado los procesos que se  deben surtir para dar respuestas, estos pueden llevar más tiempo de lo estipulado por la ley, de presentarse esta situación se debe informar al peticionario indicando la causa de la demora en la respuesta y la fecha en que se entrega la misma, en muchas ocasiones y cuando la petición es por dudas en los procesos, la respuesta va acompañada de un diagrama de flujo sintetizado y concreto donde se detalle el proceso consultado de principio a fin, esto con la finalidad de que evitar preguntas redundantes y mejorar la percepción del servicio respecto de su eficiencia y eficacia.
 
       .py-4.py-md-5(titulo="Queja" :icono="require('@/assets/curso/tema1/2.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h4 Apiladores
-            p Son equipos capaces de transportar y elevar una paleta, permitiendo no solo desplazar la carga horizontalmente, sino verticalmente y de este modo realizar el trabajo de apilado. Se pueden distinguir los siguientes:
-            p 
-              span.fw-bold a. De elevación manual: 
-              | permiten una elevación limitada, por eso no se deben usar con cargas pesadas, normalmente se utilizan para la carga y descarga de estanterías ubicadas en la recepción y expedición.
-            p 
-              span.fw-bold b. Mixtos: 
-              | tienen tracción manual y eléctrica y es el tipo más usado.
-            p 
-              span.fw-bold c. Autopropulsados: 
-              | realizan el traslado y la elevación de manera motorizada, no se recomiendan para recorridos largos y requieren una superficie lisa para el desplazamiento.
-
-          .col-md-4
-          
-
+            h4 Queja
+          .cajon.color-primario.bg-3-claro.p-4.mb-4.col-11.esp2
+            p El proceso de queja de un cliente siempre hace referencia a insatisfacción que él tiene frente al servicio o al producto, en alguna de sus etapas de ejecución, generalmente las quejas reflejan bajos indicadores de satisfacción de los clientes, sin embargo, el hecho de que los clientes no presenten quejas no se señal de satisfacción.  
+          p Al igual que en la petición la respuesta debe ser clara y debe emitirse dentro de los tiempos estipulados por la ley, en caso de no ser posible cumplir los tiempos de debe informar al peticionario, informando los tiempos de respuesta y causales de la mora.
+          p En el proceso de PQR es importante cumplir los tiempos establecidos según la normatividad, el cumplir reduce posibilidades de que interpongan sanciones por entidades de control. 
+          p El proceso que se aplica para la recepción de las Quejas es el mismo que se aplica para la petición, solo que en el formato que las organizaciones tienen establecidos para la recepción o radicación, el peticionario debe señalar o registrar de forma clara en el espacio asignado para ello si es una petición, una queja o un reclamo. 
       .py-4.py-md-5(titulo="Reclamo" :icono="require('@/assets/curso/tema1/3.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h4 Carretillas o montacargas
-            p Son equipos de contrapeso que cumplen con la función de transportar y soportar mediante la parte delantera del vehículo cualquier tipo de carga en pallets o contenedores. Pueden ser de los siguientes tipos:
-            p 
-              span.fw-bold a. Contrabalanceada: 
-              | vehículo autopropulsado que realiza la carga por delante del punto de apoyo mediante horquillas.
-            p 
-              span.fw-bold b. Retráctil: 
-              | es un equipo elevador que puede extender y recoger las horquillas o el mástil sobre si mismo y permite alcanzar alturas de elevación superiores.
-            p 
-              span.fw-bold c. De toma lateral: 
-              | existen trilaterales, las cuales pueden manipular la carga de manera: frontal, izquierda y derecha o también las hay bilaterales (derecha/izquierda). Ofrecen mejor rendimiento cuando son guiadas a través de raíles, permitiendo así una mayor velocidad.
-            p 
-              span.fw-bold d. Recogepedidos: 
-              | se forma por una cabina donde se sitúa el conductor y que se eleva junto con las horquillas para realizar tareas de reposición y 
-              em picking.
-
-          .col-md-4
-
+            h4 Reclamo 
+          .cajon.color-primario.bg-3-claro.p-4.mb-4.col-11.esp2
+            p El proceso de reclamo de un cliente siempre hace referencia a la inconformidad posterior que él tiene cuando evidencia una diferencia entre lo que la organización, marca o persona ofreció y lo que el cliente obtuvo.  
+          p El proceso de recepción de reclamo es el mismo que se aplica en los casos de petición o queja, también se debe dejar evidenciado en el formato que se usa, que se está radicando o elevando una queja, ésta debe ser solucionada por parte de persona natural o jurídica dentro de los tiempos establecidos según las normas. 
        
-
-
+    .row.p-2
+      .col.col-12.col-lg-4
+        .tarjeta.p-4(style='background-color: #FFDE96')
+          img.img90.m-auto.mb-4(src='@/assets/curso/tema1/4.svg', alt='', class='img-fluid')
+          p.fw-bold.mb-0 Petición
+          p Pedir o solicitar algo que se requiere o se necesita.
+      .col.col-12.col-lg-4
+        .tarjeta.p-4(style='background-color: #FFDE96')
+          img.img90.m-auto.mb-4(src='@/assets/curso/tema1/5.svg', alt='', class='img-fluid')
+          p.fw-bold.mb-0 Queja
+          p Expresion de Insatisfaccion
+          br
+      .col.col-12.col-lg-4
+        .tarjeta.p-4(style='background-color: #FFDE96')
+          img.img90.m-auto.mb-4(src='@/assets/curso/tema1/6.svg', alt='', class='img-fluid')
+          p.fw-bold.mb-0 Reclamo
+          p Disconformidad relacionada entre lo prometido y lo recibido
+    br     
+    p Los siguientes recursos hacen referencia a las peticiones, quejas o reclamos, después de observarlos, analicemos las actitudes y acciones de los clientes frente a las situaciones
+    separador
 </template>
 
 <script>

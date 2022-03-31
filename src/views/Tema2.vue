@@ -30,9 +30,17 @@
       h2 2.1 Servicios y solicitudes en Aeromensajería
 
     P Los servicios postales en Aeromensajería, sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
-   
-    h3 Slider D
-    SlyderD.mb-5(:datos="datosSlyder")
+    SlyderD(:datos="datosSlyder")
+
+    .row.mb-5
+      .col.col-12.col-lg-8.pt-5
+        p En cada una de las etapas, el usuario debe obtener por parte del servicio de Aeromensajería orientación del estado del trámite y el correcto procesamiento de este, la esencia del servicio al cliente es la información y esta se encuentra soportada en los documentos generados, los cuales tienen por objeto regular o estandarizar procesos en la prestación de los servicios.
+        p En la actualidad las empresas usan como principal herramienta la tecnología de la información y hoy día por normativa, las empresas de servicios postales y transporte de mercancías deben disponer de herramientas ofimáticas que les permita hacer seguimiento a los envíos postales, una de las principales herramientas son las APP, aplicaciones que permiten facilitar la resolución de tareas, actividades o gestiones del día a día, estas herramientas el usuario las instala en el equipo móvil o tableta y a través de ellas se puede hacer  el seguimiento al correo o paquete, ingresando código de despacho. 
+      .col.col-12.col-lg-4.position-relative
+        .sobre-flotante-t3
+          img.w-50(src='@/assets/curso/banner/img04.svg', class='img-fluid')
+        picture
+          img(src='@/assets/curso/tema2/1.png', alt='Ubicación de mercancía', class='img-fluid')
 
 
 
@@ -49,35 +57,32 @@ export default {
     modal4: false,
     datosSlyder: [
       {
-        titulo:
-          'Never, never assume that what you have achieved is good enough',
         texto:
-          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+          '<b>Selección del proveedor de servicios:</b> Tiempo de entrega, facilidad de acceso, especialidad, precio y confianza. Esta última de las más importantes.',
+        imagen: require('@/assets/curso/tema2/1.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo:
-          'Never, never assume that what you have achieved is good enough',
         texto:
-          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+          '<b>Uso de la plataforma de diligenciamiento de solicitud del servicio.</b>',
+        imagen: require('@/assets/curso/tema2/2.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo:
-          'Never, never assume that what you have achieved is good enough',
         texto:
-          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+          '<b>Obtener la agenda de movilización del objeto a procesar en servicio postal.</b>',
+        imagen: require('@/assets/curso/tema2/3.jpg'),
         leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo:
-          'Never, never assume that what you have achieved is good enough',
+        texto: '<b>Entrega del objeto postal al proveedor de servicio.</b>',
+        imagen: require('@/assets/curso/tema2/4.jpg'),
+        leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
         texto:
-          'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
-        imagen: require('@/assets/template/img-placeholder.svg'),
+          '<b>Recepción en destino final del objeto postal por parte del orientado por el originador contratante del servicio.</b>',
+        imagen: require('@/assets/curso/tema2/5.jpg'),
         leyendaImagen: 'Leyenda de la imagen',
       },
     ],

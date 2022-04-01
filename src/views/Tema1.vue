@@ -167,9 +167,9 @@
             h4 Queja
           .cajon.color-primario.bg-3-claro.p-4.mb-4.col-11.esp2
             p El proceso de queja de un cliente siempre hace referencia a insatisfacción que él tiene frente al servicio o al producto, en alguna de sus etapas de ejecución, generalmente las quejas reflejan bajos indicadores de satisfacción de los clientes, sin embargo, el hecho de que los clientes no presenten quejas no se señal de satisfacción.  
-          p Al igual que en la petición la respuesta debe ser clara y debe emitirse dentro de los tiempos estipulados por la ley, en caso de no ser posible cumplir los tiempos de debe informar al peticionario, informando los tiempos de respuesta y causales de la mora.
-          p En el proceso de PQR es importante cumplir los tiempos establecidos según la normatividad, el cumplir reduce posibilidades de que interpongan sanciones por entidades de control. 
-          p El proceso que se aplica para la recepción de las Quejas es el mismo que se aplica para la petición, solo que en el formato que las organizaciones tienen establecidos para la recepción o radicación, el peticionario debe señalar o registrar de forma clara en el espacio asignado para ello si es una petición, una queja o un reclamo. 
+            p Al igual que en la petición la respuesta debe ser clara y debe emitirse dentro de los tiempos estipulados por la ley, en caso de no ser posible cumplir los tiempos de debe informar al peticionario, informando los tiempos de respuesta y causales de la mora.
+            p En el proceso de PQR es importante cumplir los tiempos establecidos según la normatividad, el cumplir reduce posibilidades de que interpongan sanciones por entidades de control. 
+            p El proceso que se aplica para la recepción de las Quejas es el mismo que se aplica para la petición, solo que en el formato que las organizaciones tienen establecidos para la recepción o radicación, el peticionario debe señalar o registrar de forma clara en el espacio asignado para ello si es una petición, una queja o un reclamo. 
       .py-4.py-md-5(titulo="Reclamo" :icono="require('@/assets/curso/tema1/3.svg')")
         .row
           .col-md-8.mb-4.mb-md-0

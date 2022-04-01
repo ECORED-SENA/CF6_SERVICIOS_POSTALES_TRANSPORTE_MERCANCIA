@@ -141,6 +141,44 @@
     p Ya visto los portafolios de servicios, los siguientes conceptos serían:
 
 
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Los Canales de distribución" :icono="require('@/assets/curso/tema2/vec3.svg')")
+        .row
+          .col-12
+            p Los Canales de distribución, del que hacen uso las empresas de servicios postales y transporte de mercancías y los cuales son de vital importancia para la operación y cumplimiento de la promesa de valor para con sus clientes y se dividen en:
+        .row.col-10.pos3      
+          .col.col-10.col-lg-4
+            .tarjeta.p-4(style='background-color: #FFDE96')
+              img.img100.mb-4(src='@/assets/curso/tema2/vec2.svg', alt='', class='img-fluid')
+              p.margtx3 <b>Canal Convencional,</b> dirigido al público general o usuarios tradicionales.
+          .col.col-10.col-lg-4
+            .tarjeta.p-4(style='background-color: #FFEECA')
+              img.img100.mb-4(src='@/assets/curso/tema2/vec2.svg', alt='', class='img-fluid')
+              p.margtx3 <b>Canal Especializado</b> (depende del tipo y característica de los objetos postales y las mercancías)
+          .col.col-10.col-lg-4
+            .tarjeta.p-4(style='background-color: #FFDE96')
+              img.img100.mb-4(src='@/assets/curso/tema2/vec2.svg', alt='', class='img-fluid')
+              p <b>Canal Institucional</b> dirigido a clientes oficiales que realizan ventas institucionales, generalmente son restaurantes, colegios, clubes, hoteles. 
+
+
+      .py-4.py-md-5(titulo="La trazabilidad" :icono="require('@/assets/curso/tema2/vec4.svg')")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h4 La trazabilidad
+          .row
+            p La trazabilidad, en servicios postales y transporte de mercancías debe ser constante, todas las empresas que prestan este servicio deben garantizar a los clientes tanto remitente como destinatario, la posibilidad de hacer seguimiento a los envíos desde el momento que entrega el paquete o correo hasta el momento de la entrega, así mismos debe dejar registros tanto físicos como digitales del envío realizado y el servicio prestado.  
+            p El disponer de un software que permita este proceso mejora el servicio al cliente, mejora la productividad y la realización de entregas de forma más rápida y con menos errores. Estas son sus ventajas:
+          <br>
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 3
+          span <i>Ventajas de la trazabilidad</i>
+        img.col-8.pos3(src='@/assets/curso/tema2/vec5.svg')
+
+
+    .cajon.color-primario.bg-3-claro.p-4.mb-4.col-12
+      p Recordemos que las empresas de servicios postales y transportes de mercancías deben conservar los archivos de los envíos realizados y esto lo debe hacer tanto en físico y conservarlo por tres años como mínimo y digital
+
+
 
 </template>
 

@@ -41,6 +41,104 @@
           img.w-50(src='@/assets/curso/banner/img04.svg', class='img-fluid')
         picture
           img(src='@/assets/curso/tema2/1.png', alt='Ubicación de mercancía', class='img-fluid')
+    separador
+
+    #t_2_2.titulo-segundo.color-acento-contenido
+      h2 2.2 Portafolio de servicios, canales y trazabilidad
+
+    p Documento que contiene la presentación de una organización o compañía, en él se detalla la oferta comercial, sea de productos o servicios, las características de estos, el portafolio también contiene la misión, visión, políticas, principios, valores, certificaciones y normas e incluso se puede referir los nombres de clientes y empresas con la que se tienen relaciones comerciales. 
+    p Una empresa de servicios postales y transporte de mercancías oferta dentro de su <b>portafolio de servicios</b> lo siguiente:
+
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.p-4(titulo="Cintas transportadoras de banda")
+        .row.mb-1.d-flex
+          .col.col-12.col-lg-4.pt-2
+            picture
+              img(src='@/assets/curso/tema2/2.png', alt='Cintas transportadoras de banda', class='img-fluid')
+          .col.col-12.col-lg-8.pt-2
+            h5 Logística de documentos
+            ol.lista-ol
+              li 
+                span.text-bold a. 
+                | Servicio Postal para correos certificados.
+              li 
+                span.text-bold b. 
+                | Correspondencia prioritario normal.
+              li 
+                span.text-bold c. 
+                | Correspondencia no prioritaria normal.
+              li 
+                span.text-bold d. 
+                | Postexpress.
+              li 
+                span.text-bold e. 
+                | Al día.
+              li 
+                span.text-bold f. 
+                | Cecogramas.
+
+      .tarjeta.p-4(titulo="Cinta transportadora de rodillos")
+        .row.mb-1.d-flex
+          .col.col-12.col-lg-4.pt-2
+            picture
+              img(src='@/assets/curso/tema2/3.png', alt='Cinta transportadora de rodillos', class='img-fluid')
+          .col.col-12.col-lg-8.pt-2
+            h5 Servicios
+            ol.lista-ol
+              li 
+                span.text-bold a. 
+                | Custodia.
+              li 
+                span.text-bold b. 
+                | Notificaciones electrónicas.
+              li 
+                span.text-bold c. 
+                | Automatización de procesos.
+              li 
+                span.text-bold d. 
+                | Procesamiento de información.
+
+      .tarjeta.p-4(titulo="Grúas aéreas")
+        .row.mb-1.d-flex
+          .col.col-12.col-lg-4.pt-2
+            picture
+              img(src='@/assets/curso/tema2/4.png', alt='Grúas aéreas', class='img-fluid')
+          .col.col-12.col-lg-8.pt-2
+            h5 Paquetería
+            ol.lista-ol
+              li 
+                span.text-bold a. 
+                | Correo masivo básico.
+              li 
+                span.text-bold b. 
+                | Correo masivo estándar.
+              li 
+                span.text-bold c. 
+                | Masivo dirigido expreso.
+
+      .tarjeta.p-4(titulo="Transelevadores")
+        .row.mb-1.d-flex
+          .col.col-12.col-lg-4.pt-2
+            picture
+              img(src='@/assets/curso/tema2/5.png', alt='Transelevadores', class='img-fluid')
+          .col.col-12.col-lg-8.pt-2
+            h5  Envíos Internacionales
+            ol.lista-ol
+              li 
+                span.text-bold a. 
+                | Correo internacional certificado.
+              li 
+                span.text-bold b. 
+                | Correo internacional no certificado.
+              li 
+                span.text-bold c. 
+                | Express Time.
+              li 
+                span.text-bold d. 
+                | Sacas M.
+                
+    p Cada una de las empresas de servicios postales y transporte de mercancías, aplica diferentes procesos en órdenes específicos dentro de sus organizaciones para atender a sus clientes buscando su satisfacción, de allí, se derivan los portafolios de servicios, sus canales de atención y su trazabilidad.
+    p Ya visto los portafolios de servicios, los siguientes conceptos serían:
 
 
 

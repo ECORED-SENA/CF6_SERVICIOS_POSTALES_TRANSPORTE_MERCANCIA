@@ -90,7 +90,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Estrategias de servicio al cliente',

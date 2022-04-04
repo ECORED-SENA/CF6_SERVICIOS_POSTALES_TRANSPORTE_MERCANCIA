@@ -64,30 +64,30 @@
         .tarjeta-text-up
           img(src='@/assets/curso/tema3/1.png', alt='WMS', class='img-fluid')
           .tarjeta-text-up__texto
-            img(src='@/assets/curso/tema3/star.svg', alt='WMS', class='img-fluid')
-            h5 
+            img.postm3(src='@/assets/curso/tema3/star.svg', alt='WMS', class='img-fluid')
+            h5.postm31 
               em
                 | Servicio
-            p.mb-0 El concepto de servicio postal está definido en el evento de recaudar el objeto postal, administrarlo, movilizarlo y entregarlo en las condiciones esperadas por el cliente.
+            p.postm31 El concepto de servicio postal está definido en el evento de recaudar el objeto postal, administrarlo, movilizarlo y entregarlo en las condiciones esperadas por el cliente.
             
       .col.col-12.col-md-6.col-lg-4.mt-4
         .tarjeta-text-up
           img(src='@/assets/curso/tema3/2.png', alt='WMS', class='img-fluid')
           .tarjeta-text-up__texto
-            img(src='@/assets/curso/tema3/friends.svg', alt='WMS', class='img-fluid')
-            h5
+            img.postm3(src='@/assets/curso/tema3/friends.svg', alt='WMS', class='img-fluid')
+            h5.postm31
               em
                 | Atención               
-            p El concepto de atención en servicios postales, es la forma en la cual en cada uno de los pasos del proceso origen-destino es informado, mantenido y monitoreado en su satisfacción cada cliente.
+            p.postm31 El concepto de atención en servicios postales, es la forma en la cual en cada uno de los pasos del proceso origen-destino es informado, mantenido y monitoreado en su satisfacción cada cliente.
       .col.col-12.col-md-6.col-lg-4.mt-4
         .tarjeta-text-up
           img(src='@/assets/curso/tema3/3.png', alt='WMS', class='img-fluid')
           .tarjeta-text-up__texto
-            img(src='@/assets/curso/tema3/heart.svg', alt='WMS', class='img-fluid')
-            h5
+            img.postm3(src='@/assets/curso/tema3/heart.svg', alt='WMS', class='img-fluid')
+            h5.postm31
               em
                 | Experiencia del Cliente               
-            p El concepto de experiencia del cliente, es la percepción que cada cliente se fabrica en su razón, en cada uno de los pasos del servicio postal (origen-destino), al final, generará una experiencia consolidada que será la de mayor relevancia en medición sin menoscabo de la valía de las opiniones apropiadas por cada una de las etapas del proceso de servicio postal.
+            p.postm31 El concepto de experiencia del cliente, es la percepción que cada cliente se fabrica en su razón, en cada uno de los pasos del servicio postal (origen-destino), al final, generará una experiencia consolidada que será la de mayor relevancia en medición sin menoscabo de la valía de las opiniones apropiadas por cada una de las etapas del proceso de servicio postal.
     separador
 
     #t_3_2.titulo-segundo.color-acento-contenido

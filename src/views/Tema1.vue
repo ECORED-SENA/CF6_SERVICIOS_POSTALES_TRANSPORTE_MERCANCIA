@@ -49,7 +49,7 @@
       .row
         .titulo-sexto.color-acento-contenido
             h5 Figura 1
-            span <i>Beneficio Automatización Proceso PQR</i>
+            span Beneficio Automatización Proceso PQR
         
         img(src='@/assets/curso/tema1/Vec1.svg', alt='Ubicación de mercancía', class='img-fluid').col-9.pos1 
         p En tema de normativa, la constitución política nacional en el artículo 23 reza que toda persona tiene derecho a interponer o presentar peticiones de forma respetuosa ante las autoridades, estas peticiones pueden ser de interés general o entidades públicas o privadas, por la ley 755 de 2015 reguló en Colombia el derecho fundamental de las personas a interponer peticiones 
@@ -241,7 +241,7 @@
           img(src='@/assets/curso/tema1/1.jpg', alt='', class='img-fluid')
           .margtx
             p Las sugerencias tienen origen dual, esto significa que son endógeno y exógeno es decir que se presentan al interior y al exterior de la organización, es una observación sobre la forma de hacer algo, la sugerencia no es una obligación es una invitación a realizar o implementar una acción. 
-            p Las de sugerencias de carácter endógeno son originadas al interior de las organizaciones y obedecen principalmente a mejoras continuas requieren acciones correctivas de quienes ejecutan o definen los procesos.  Las sugerencias permiten determinan que hay falencias o posibilidades de mejora, recibir una sugerencia es informarnos de una situación. 
+            p Las sugerencias de carácter endógeno son originadas al interior de las organizaciones y obedecen principalmente a mejoras continuas requieren acciones correctivas de quienes ejecutan o definen los procesos.  Las sugerencias permiten determinan que hay falencias o posibilidades de mejora, recibir una sugerencia es informarnos de una situación. 
 
       .col-6
         .tarjeta(style='background-color: #FF8578').bor

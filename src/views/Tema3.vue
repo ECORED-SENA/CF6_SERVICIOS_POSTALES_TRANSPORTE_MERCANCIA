@@ -18,38 +18,38 @@
           img(src='@/assets/curso/tema3/vec1.svg', alt='Texto que describa la imagen')
       .tarjeta.bg-amarillo-claro.p-3(x="6.6%" y="30%" numero="")
         .texto-seis-alt.color-secundario
-          p <b>Comunicación clara y directa</b>
+          p <b>Comunicación clara y directa:</b>
             br
             | Se debe tener una comunicación con los clientes donde se identifiquen las fortalezas organizacionales y los beneficios que se ofrecen.
 
            
       .tarjeta.bg-amarillo-claro.p-3(x="24.7%" y="72%" numero="")
         .texto-seis-alt.color-secundario
-          p  <b>Sociabilidad,</b>
+          p  <b>Sociabilidad:</b>
             br
             | trabajar en la capacidad de lograr una interrelación, desarrollar relaciones amigables, respetuosas y con especial interés por las necesidades del cliente y atención de estas.
            
       .tarjeta.bg-amarillo-claro.p-3(x="41.5%" y="26.5%" numero="")
         .texto-seis-alt.color-secundario
-          p  <b>Conocimiento del cliente,</b>
+          p  <b>Conocimiento del cliente:</b>
             br
             | conocer el cliente, identificar las necesidades, ser proactivo anticipando a los requerimientos genera una gran ventaja competitiva. 
            
       .tarjeta.bg-amarillo-claro.p-3(x="58.5%" y="72%" numero="")
         .texto-seis-alt.color-secundario
-          p  <b>Honestidad,</b>
+          p  <b>Honestidad:</b>
             br
             | la transparencia es un factor muy valorado por el cliente, cumplir con las expectativas de servicio con oportunidad y rectitud genera confianza y satisfacción.
            
       .tarjeta.bg-amarillo-claro.p-3(x="75.4%" y="26.4%" numero="")
         .texto-seis-alt.color-secundario
-          p  <b>Escuchar,</b>
+          p  <b>Escuchar:</b>
             br
             | es de gran importancia estar atentos a los clientes, escuchar las recomendaciones, o sugerencias que nacen del proceso de atención marcan un camino de mejora cada día no solo para la atención de ese cliente, sino para lograr más clientes, mayo participación del mercado.
           
       .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="72%" numero="")
         .texto-seis-alt.color-secundario
-          p  <b>Ser creativo,</b>
+          p  <b>Ser creativo:</b>
             br
             | la prestación de un servicio con atención permite identificar necesidades del cliente, y así diseñar soluciones rápidas y precisas a las mismas, hacer sentir al cliente que sus necesidades son prioridad en atención. 
     br      
@@ -64,6 +64,7 @@
         .tarjeta-text-up
           img(src='@/assets/curso/tema3/1.png', alt='WMS', class='img-fluid')
           .tarjeta-text-up__texto
+            img(src='@/assets/curso/tema3/star.svg', alt='WMS', class='img-fluid')
             h5 
               em
                 | Servicio
@@ -73,6 +74,7 @@
         .tarjeta-text-up
           img(src='@/assets/curso/tema3/2.png', alt='WMS', class='img-fluid')
           .tarjeta-text-up__texto
+            img(src='@/assets/curso/tema3/friends.svg', alt='WMS', class='img-fluid')
             h5
               em
                 | Atención               
@@ -81,6 +83,7 @@
         .tarjeta-text-up
           img(src='@/assets/curso/tema3/3.png', alt='WMS', class='img-fluid')
           .tarjeta-text-up__texto
+            img(src='@/assets/curso/tema3/heart.svg', alt='WMS', class='img-fluid')
             h5
               em
                 | Experiencia del Cliente               

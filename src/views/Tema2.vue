@@ -27,9 +27,9 @@
     separador
 
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Servicios y solicitudes en Aeromensajería
+      h2 2.1 Servicios y solicitudes en mensajería aérea"
 
-    P Los servicios postales en Aeromensajería, sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
+    P Los servicios postales en mensajería aérea", sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
     SlyderD(:datos="datosSlyder")
 
     .row.mb-5
@@ -50,92 +50,92 @@
     p Una empresa de servicios postales y transporte de mercancías oferta dentro de su <b>portafolio de servicios</b> lo siguiente:
 
     TabsA.color-acento-contenido.mb-5
-      .tarjeta.p-4(titulo="Cintas transportadoras de banda")
+      .tarjeta.p-3(titulo="Logística de documentos")
         .row.mb-1.d-flex
           .col.col-12.col-lg-4.pt-2
             picture
-              img(src='@/assets/curso/tema2/2.png', alt='Cintas transportadoras de banda', class='img-fluid')
-          .col.col-12.col-lg-8.pt-2
+              img(src='@/assets/curso/tema2/2.png', alt='Logística de documentos', class='img-fluid')
+          .col.col-12.col-lg-6.pt-2
             h5 Logística de documentos
             ol.lista-ol
               li 
                 span.text-bold a. 
-                | Servicio Postal para correos certificados.
+                p Servicio Postal para correos certificados.
               li 
                 span.text-bold b. 
-                | Correspondencia prioritario normal.
+                p Correspondencia prioritario normal.
               li 
                 span.text-bold c. 
-                | Correspondencia no prioritaria normal.
+                p Correspondencia no prioritaria normal.
               li 
                 span.text-bold d. 
-                | Postexpress.
+                p Postexpress.
               li 
                 span.text-bold e. 
-                | Al día.
+                p Al día.
               li 
                 span.text-bold f. 
-                | Cecogramas.
+                p Cecogramas.
 
-      .tarjeta.p-4(titulo="Cinta transportadora de rodillos")
+      .tarjeta.p-3(titulo="Servicios")
         .row.mb-1.d-flex
           .col.col-12.col-lg-4.pt-2
             picture
-              img(src='@/assets/curso/tema2/3.png', alt='Cinta transportadora de rodillos', class='img-fluid')
+              img(src='@/assets/curso/tema2/3.png', alt='Servicios', class='img-fluid')
           .col.col-12.col-lg-8.pt-2
             h5 Servicios
             ol.lista-ol
               li 
                 span.text-bold a. 
-                | Custodia.
+                p Custodia.
               li 
                 span.text-bold b. 
-                | Notificaciones electrónicas.
+                p Notificaciones electrónicas.
               li 
                 span.text-bold c. 
-                | Automatización de procesos.
+                p Automatización de procesos.
               li 
                 span.text-bold d. 
-                | Procesamiento de información.
+                p Procesamiento de información.
 
-      .tarjeta.p-4(titulo="Grúas aéreas")
+      .tarjeta.p-4(titulo="Paquetería")
         .row.mb-1.d-flex
           .col.col-12.col-lg-4.pt-2
             picture
-              img(src='@/assets/curso/tema2/4.png', alt='Grúas aéreas', class='img-fluid')
+              img(src='@/assets/curso/tema2/4.png', alt='Paquetería', class='img-fluid')
           .col.col-12.col-lg-8.pt-2
             h5 Paquetería
             ol.lista-ol
               li 
                 span.text-bold a. 
-                | Correo masivo básico.
+                p Correo masivo básico.
               li 
                 span.text-bold b. 
-                | Correo masivo estándar.
+                p Correo masivo estándar.
               li 
                 span.text-bold c. 
-                | Masivo dirigido expreso.
+                p Masivo dirigido expreso.
 
-      .tarjeta.p-4(titulo="Transelevadores")
+      .tarjeta.p-3(titulo="Envíos internacionales")
         .row.mb-1.d-flex
           .col.col-12.col-lg-4.pt-2
             picture
-              img(src='@/assets/curso/tema2/5.png', alt='Transelevadores', class='img-fluid')
+              img(src='@/assets/curso/tema2/5.png', alt='Envíos internacionales', class='img-fluid')
           .col.col-12.col-lg-8.pt-2
             h5  Envíos Internacionales
             ol.lista-ol
               li 
                 span.text-bold a. 
-                | Correo internacional certificado.
+                p Correo internacional certificado.
               li 
                 span.text-bold b. 
-                | Correo internacional no certificado.
+                p Correo internacional no certificado.
               li 
                 span.text-bold c. 
-                | Express Time.
+                p Express Time.
               li 
                 span.text-bold d. 
-                | Sacas M.
+                p Sacas M.
                 
     p Cada una de las empresas de servicios postales y transporte de mercancías, aplica diferentes procesos en órdenes específicos dentro de sus organizaciones para atender a sus clientes buscando su satisfacción, de allí, se derivan los portafolios de servicios, sus canales de atención y su trazabilidad.
     p Ya visto los portafolios de servicios, los siguientes conceptos serían:
@@ -171,12 +171,12 @@
           <br>
         .titulo-sexto.color-acento-contenido
           h5 Figura 3
-          span <i>Ventajas de la trazabilidad</i>
+          span Ventajas de la trazabilidad
         img.col-8.pos3(src='@/assets/curso/tema2/vec5.svg')
 
 
     .cajon.color-primario.bg-3-claro.p-4.mb-4.col-12
-      p Recordemos que las empresas de servicios postales y transportes de mercancías deben conservar los archivos de los envíos realizados y esto lo debe hacer tanto en físico y conservarlo por tres años como mínimo y digital
+      p Recordemos que las empresas de servicios postales y transportes de mercancías deben conservar los archivos de los envíos realizados y esto lo debe hacer tanto en físico y conservarlo por tres años como mínimo y digital.
 
 
 

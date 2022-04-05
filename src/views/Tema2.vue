@@ -27,9 +27,9 @@
     separador
 
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Servicios y solicitudes en mensajería aérea"
+      h2 2.1 Servicios y solicitudes en mensajería aérea
 
-    P Los servicios postales en mensajería aérea", sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
+    P Los servicios postales en mensajería aérea, sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
     SlyderD(:datos="datosSlyder")
 
     .row.mb-5
@@ -52,7 +52,7 @@
     TabsA.color-acento-contenido.mb-5
       .tarjeta.p-3(titulo="Logística de documentos")
         .row.mb-1.d-flex
-          .col.col-12.col-lg-4.pt-2
+          .col.col-12.col-lg-5.pt-2
             picture
               img(src='@/assets/curso/tema2/2.png', alt='Logística de documentos', class='img-fluid')
           .col.col-12.col-lg-6.pt-2
@@ -79,10 +79,10 @@
 
       .tarjeta.p-3(titulo="Servicios")
         .row.mb-1.d-flex
-          .col.col-12.col-lg-4.pt-2
+          .col.col-12.col-lg-5.pt-2
             picture
               img(src='@/assets/curso/tema2/3.png', alt='Servicios', class='img-fluid')
-          .col.col-12.col-lg-8.pt-2
+          .col.col-12.col-lg-6.pt-2
             h5 Servicios
             ol.lista-ol
               li 
@@ -100,10 +100,10 @@
 
       .tarjeta.p-4(titulo="Paquetería")
         .row.mb-1.d-flex
-          .col.col-12.col-lg-4.pt-2
+          .col.col-12.col-lg-5.pt-2
             picture
               img(src='@/assets/curso/tema2/4.png', alt='Paquetería', class='img-fluid')
-          .col.col-12.col-lg-8.pt-2
+          .col.col-12.col-lg-6.pt-2
             h5 Paquetería
             ol.lista-ol
               li 
@@ -118,10 +118,10 @@
 
       .tarjeta.p-3(titulo="Envíos internacionales")
         .row.mb-1.d-flex
-          .col.col-12.col-lg-4.pt-2
+          .col.col-12.col-lg-5.pt-2
             picture
               img(src='@/assets/curso/tema2/5.png', alt='Envíos internacionales', class='img-fluid')
-          .col.col-12.col-lg-8.pt-2
+          .col.col-12.col-lg-6.pt-2
             h5  Envíos Internacionales
             ol.lista-ol
               li 

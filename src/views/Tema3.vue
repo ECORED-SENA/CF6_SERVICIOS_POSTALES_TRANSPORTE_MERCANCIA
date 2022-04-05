@@ -18,40 +18,27 @@
           img(src='@/assets/curso/tema3/vec1.svg', alt='Texto que describa la imagen')
       .tarjeta.bg-amarillo-claro.p-3(x="6.6%" y="30%" numero="")
         .texto-seis-alt.color-secundario
-          p <b>Comunicación clara y directa:</b>
-            br
-            | Se debe tener una comunicación con los clientes donde se identifiquen las fortalezas organizacionales y los beneficios que se ofrecen.
-
-           
+          p <b>Comunicación clara y directa:</b>  Se debe tener una comunicación con los clientes donde se identifiquen las fortalezas organizacionales y los beneficios que se ofrecen.
+   
       .tarjeta.bg-amarillo-claro.p-3(x="24.7%" y="72%" numero="")
         .texto-seis-alt.color-secundario
-          p  <b>Sociabilidad:</b>
-            br
-            | trabajar en la capacidad de lograr una interrelación, desarrollar relaciones amigables, respetuosas y con especial interés por las necesidades del cliente y atención de estas.
+          p  <b>Sociabilidad:</b>  trabajar en la capacidad de lograr una interrelación, desarrollar relaciones amigables, respetuosas y con especial interés por las necesidades del cliente y atención de estas.
            
       .tarjeta.bg-amarillo-claro.p-3(x="41.5%" y="26.5%" numero="")
         .texto-seis-alt.color-secundario
-          p  <b>Conocimiento del cliente:</b>
-            br
-            | conocer el cliente, identificar las necesidades, ser proactivo anticipando a los requerimientos genera una gran ventaja competitiva. 
+          p  <b>Conocimiento del cliente:</b>  conocer el cliente, identificar las necesidades, ser proactivo anticipando a los requerimientos genera una gran ventaja competitiva. 
            
       .tarjeta.bg-amarillo-claro.p-3(x="58.5%" y="72%" numero="")
         .texto-seis-alt.color-secundario
-          p  <b>Honestidad:</b>
-            br
-            | la transparencia es un factor muy valorado por el cliente, cumplir con las expectativas de servicio con oportunidad y rectitud genera confianza y satisfacción.
+          p  <b>Honestidad:</b>  la transparencia es un factor muy valorado por el cliente, cumplir con las expectativas de servicio con oportunidad y rectitud genera confianza y satisfacción.
            
       .tarjeta.bg-amarillo-claro.p-3(x="75.4%" y="26.4%" numero="")
         .texto-seis-alt.color-secundario
-          p  <b>Escuchar:</b>
-            br
-            | es de gran importancia estar atentos a los clientes, escuchar las recomendaciones, o sugerencias que nacen del proceso de atención marcan un camino de mejora cada día no solo para la atención de ese cliente, sino para lograr más clientes, mayo participación del mercado.
+          p  <b>Escuchar:</b>  es de gran importancia estar atentos a los clientes, escuchar las recomendaciones, o sugerencias que nacen del proceso de atención marcan un camino de mejora cada día no solo para la atención de ese cliente, sino para lograr más clientes, mayo participación del mercado.
           
       .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="72%" numero="")
         .texto-seis-alt.color-secundario
-          p  <b>Ser creativo:</b>
-            br
-            | la prestación de un servicio con atención permite identificar necesidades del cliente, y así diseñar soluciones rápidas y precisas a las mismas, hacer sentir al cliente que sus necesidades son prioridad en atención. 
+          p  <b>Ser creativo:</b>  la prestación de un servicio con atención permite identificar necesidades del cliente, y así diseñar soluciones rápidas y precisas a las mismas, hacer sentir al cliente que sus necesidades son prioridad en atención. 
     br      
     p La búsqueda de relaciones comerciales a largo plazo, el trabajar en experiencias que generen lealtad y sentido de pertenencia, ir más allá de la satisfacción superando expectativas, disponiendo canales comunicación efectivos generando confiabilidad, credibilidad, imagen de calidad, eficacia, eficiencia, para brindar una óptima atención, fidelizar clientes, obtener más clientes y así una sostenibilidad en el mercado.
     separador
@@ -65,29 +52,30 @@
           img(src='@/assets/curso/tema3/1.png', alt='WMS', class='img-fluid')
           .tarjeta-text-up__texto
             img.postm3(src='@/assets/curso/tema3/star.svg', alt='WMS', class='img-fluid')
-            h5.postm31 
-              em
-                | Servicio
-            p.postm31 El concepto de servicio postal está definido en el evento de recaudar el objeto postal, administrarlo, movilizarlo y entregarlo en las condiciones esperadas por el cliente.
+            h5.postm31 Servicio
+            br
+            br
+            P El concepto de servicio postal está definido en el evento de recaudar el objeto postal, administrarlo, movilizarlo y entregarlo en las condiciones esperadas por el cliente.
             
       .col.col-12.col-md-6.col-lg-4.mt-4
         .tarjeta-text-up
           img(src='@/assets/curso/tema3/2.png', alt='WMS', class='img-fluid')
           .tarjeta-text-up__texto
             img.postm3(src='@/assets/curso/tema3/friends.svg', alt='WMS', class='img-fluid')
-            h5.postm31
-              em
-                | Atención               
-            p.postm31 El concepto de atención en servicios postales, es la forma en la cual en cada uno de los pasos del proceso origen-destino es informado, mantenido y monitoreado en su satisfacción cada cliente.
+            h5.postm31 Atención
+            br
+            br               
+            p El concepto de atención en servicios postales, es la forma en la cual en cada uno de los pasos del proceso origen-destino es informado, mantenido y monitoreado en su satisfacción cada cliente.
+      
       .col.col-12.col-md-6.col-lg-4.mt-4
         .tarjeta-text-up
           img(src='@/assets/curso/tema3/3.png', alt='WMS', class='img-fluid')
           .tarjeta-text-up__texto
             img.postm3(src='@/assets/curso/tema3/heart.svg', alt='WMS', class='img-fluid')
-            h5.postm31
-              em
-                | Experiencia del Cliente               
-            p.postm31 El concepto de experiencia del cliente, es la percepción que cada cliente se fabrica en su razón, en cada uno de los pasos del servicio postal (origen-destino), al final, generará una experiencia consolidada que será la de mayor relevancia en medición sin menoscabo de la valía de las opiniones apropiadas por cada una de las etapas del proceso de servicio postal.
+            h5.postm31 Experiencia del Cliente
+            br
+            br               
+            p El concepto de experiencia del cliente, es la percepción que cada cliente se fabrica en su razón, en cada uno de los pasos del servicio postal (origen-destino), al final, generará una experiencia consolidada que será la de mayor relevancia en medición sin menoscabo de la valía de las opiniones apropiadas por cada una de las etapas del proceso de servicio postal.
     separador
 
     #t_3_2.titulo-segundo.color-acento-contenido

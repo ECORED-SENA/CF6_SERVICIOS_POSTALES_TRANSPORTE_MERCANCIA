@@ -242,16 +242,13 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        'Gómez, A., Iglesias, M., De la Fuente, D., y Menéndez, M. (2008). <em>Estado del arte en políticas de ubicación de productos en almacén.</em>',
-      tipo: 'Artículo',
-      link:
-        'http://adingor.es/congresos/web/uploads/cio/cio2008/LOGISTIC//1095-1102.pdf',
+      texto: 'Factores de Atención al Cliente',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=TF569oAM5yc',
     },
     {
-      texto:
-        'Correa, A., Gómez, R., y Cano, J. (2009). <em>Gestión de almacenes y Tecnologías de la Información y Comunicación (TIC).</em>',
-      tipo: 'Artículo',
+      texto: 'Procedimiento de la PQR aplicable a los servicios postales',
+      tipo: 'PDF',
       link: 'http://www.scielo.org.co/pdf/eg/v26n117/v26n117a09.pdf',
     },
   ],
@@ -284,30 +281,27 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Gloria Liliana García Marín',
-        cargo: 'Experta Temática',
+        nombre: 'María Natalia Maldonado Delgado',
+        cargo: 'Diseño web',
         centro:
-          'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Zvi Daniel Grosman',
-        cargo: 'Diseñador Instruccional',
-        centro: 'Regional Tolima – Centro Agropecuario “La Granja”',
+        nombre: 'Carlos Andrés Díaz Pinto',
+        cargo: 'Carlos Andrés Díaz Pinto Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Silvia Milena Sequeda Cárdenas',
-        cargo: 'Evaluadora instruccional',
-        centro: 'Regional distrito capital- Centro de gestión industrial',
-      },
-      {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda',
-        cargo: 'Corrección de estilo',
-        centro: 'Centro de Diseño y Metrología - Distrito capital',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
+        nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },

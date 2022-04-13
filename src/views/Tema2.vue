@@ -2,20 +2,20 @@
 .curso-main-container.pb-3.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .row
+    .row(data-aos="slide-right")
       .col.col-12
         .titulo-principal.color-acento-contenido
           .titulo-principal__numero
             span 2 
           h1 Caracterización de Servicio 
     
-    p Atender un cliente, sin distinción de la organización, tiene como objetivo primario orientarlo en la utilización del servicio, adquisición del bien o transacción requerida, para el caso de servicios postales, atención al cliente está principalmente enfocada a la movilización de elementos con origen y/o destino. Es cliente quién envía y es cliente quién recibe. 
-    p.mb-5 Los factores que intervienen en la atención al cliente con calidad son:
+    p(data-aos="slide-right") Atender un cliente, sin distinción de la organización, tiene como objetivo primario orientarlo en la utilización del servicio, adquisición del bien o transacción requerida, para el caso de servicios postales, atención al cliente está principalmente enfocada a la movilización de elementos con origen y/o destino. Es cliente quién envía y es cliente quién recibe. 
+    p.mb-5(data-aos="slide-right") Los factores que intervienen en la atención al cliente con calidad son:
   
-    .col-10.esp3.mb-5
+    .col-10.esp3.mb-5(data-aos="flip-up")
       img(src="@/assets/curso/tema2/vec1.svg")
    
-    .row.mb-5.d-flex.align-items-center
+    .row.mb-5.d-flex.align-items-center(data-aos="flip-up")
       .col.col-12.col-lg-8.pt-5.pos2
         .bloque-texto-d.color-primario.p-4
           .bloque-texto-d__texto.mb-2
@@ -26,13 +26,14 @@
             .h5.mb-0 (Arellano Díaz, 2017)
     separador
 
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-right")
       h2 2.1 Servicios y solicitudes en mensajería aérea
 
-    P.mb-4 Los servicios postales en mensajería aérea, sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
-    SlyderD(:datos="datosSlyder")
+    P.mb-4(data-aos="flip-right") Los servicios postales en mensajería aérea, sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
+    
+    SlyderD.mb-5(:datos="datosSlyder")(data-aos="flip-up")
 
-    .row.mb-5
+    .row.mb-5(data-aos="flip-right")
       .col.col-12.col-lg-8.pt-5
         p En cada una de las etapas, el usuario debe obtener por parte del servicio de Aeromensajería orientación del estado del trámite y el correcto procesamiento de este, la esencia del servicio al cliente es la información y esta se encuentra soportada en los documentos generados, los cuales tienen por objeto regular o estandarizar procesos en la prestación de los servicios.
         p En la actualidad las empresas usan como principal herramienta la tecnología de la información y hoy día por normativa, las empresas de servicios postales y transporte de mercancías deben disponer de herramientas ofimáticas que les permita hacer seguimiento a los envíos postales, una de las principales herramientas son las APP, aplicaciones que permiten facilitar la resolución de tareas, actividades o gestiones del día a día, estas herramientas el usuario las instala en el equipo móvil o tableta y a través de ellas se puede hacer  el seguimiento al correo o paquete, ingresando código de despacho. 
@@ -43,13 +44,13 @@
           img(src='@/assets/curso/tema2/1.png', alt='Ubicación de mercancía', class='img-fluid')
     separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="slide-right")
       h2 2.2 Portafolio de servicios, canales y trazabilidad
 
-    p Documento que contiene la presentación de una organización o compañía, en él se detalla la oferta comercial, sea de productos o servicios, las características de estos, el portafolio también contiene la misión, visión, políticas, principios, valores, certificaciones y normas e incluso se puede referir los nombres de clientes y empresas con la que se tienen relaciones comerciales. 
-    p.mb-4 Una empresa de servicios postales y transporte de mercancías oferta dentro de su <b>portafolio de servicios</b> lo siguiente:
+    p(data-aos="slide-right") Documento que contiene la presentación de una organización o compañía, en él se detalla la oferta comercial, sea de productos o servicios, las características de estos, el portafolio también contiene la misión, visión, políticas, principios, valores, certificaciones y normas e incluso se puede referir los nombres de clientes y empresas con la que se tienen relaciones comerciales. 
+    p.mb-4(data-aos="slide-right") Una empresa de servicios postales y transporte de mercancías oferta dentro de su <b>portafolio de servicios</b> lo siguiente:
 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="slide-left")
       .tarjeta.p-3(titulo="Logística de documentos")
         .row.mb-1.d-flex
           .col.col-12.col-lg-5.pt-2
@@ -137,11 +138,11 @@
                 span.text-bold d. 
                 p Sacas M.
                 
-    p.mb-4 Cada una de las empresas de servicios postales y transporte de mercancías, aplica diferentes procesos en órdenes específicos dentro de sus organizaciones para atender a sus clientes buscando su satisfacción, de allí, se derivan los portafolios de servicios, sus canales de atención y su trazabilidad.
-    p.mb-4 Ya visto los portafolios de servicios, los siguientes conceptos serían:
+    p.mb-4(data-aos="slide-right") Cada una de las empresas de servicios postales y transporte de mercancías, aplica diferentes procesos en órdenes específicos dentro de sus organizaciones para atender a sus clientes buscando su satisfacción, de allí, se derivan los portafolios de servicios, sus canales de atención y su trazabilidad.
+    p.mb-4(data-aos="slide-right") Ya visto los portafolios de servicios, los siguientes conceptos serían:
 
 
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-5(data-aos="flip-left")
       .py-4.py-md-5(titulo="Los Canales de distribución" :icono="require('@/assets/curso/tema2/vec3.svg')")
         .row
           .col-12
@@ -176,7 +177,7 @@
 
 
     .cajon.color-primario.bg-3-claro.p-4.mb-4.col-12
-      p Recordemos que las empresas de servicios postales y transportes de mercancías deben conservar los archivos de los envíos realizados y esto lo debe hacer tanto en físico y conservarlo por tres años como mínimo y digital.
+      p(data-aos="slide-up") Recordemos que las empresas de servicios postales y transportes de mercancías deben conservar los archivos de los envíos realizados y esto lo debe hacer tanto en físico y conservarlo por tres años como mínimo y digital.
 
 
 

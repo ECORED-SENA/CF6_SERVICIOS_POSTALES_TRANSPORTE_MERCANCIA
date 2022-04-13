@@ -9,7 +9,7 @@
             span 1
           h1 Manejo de PQR
 
-      .row.mb-5
+      .row.mb-5(data-aos="slide-right")
         .col.col-12.col-lg-8.pt-5
           p El proceso de manejo de PQR permite a las organizaciones mejorar las estrategias de atención que se da al cliente, la atención de las solicitudes de forma oportuna genera empatía, además permite conocer los intereses de los distintos grupos objetivos, así afianzar los servicios ofrecidos trazando la ruta hacia una atención al cliente eficiente.
           p Dar un enfoque adecuado al proceso optimiza la capacidad de registro de las solicitudes recibidas, mejora la interacción con los clientes y el equipo de trabajo responsable de dar atención a los requerimientos, la implementación del proceso PQR tiene como objeto primordial suplir necesidades de comunicación frente a la atención prestada ya sea en empresas de carácter público o privado. 
@@ -20,7 +20,7 @@
           picture
             img(src='@/assets/curso/tema1/img01.png', alt='Ubicación de mercancía', class='img-fluid')
 
-      .row.mb-4
+      .row.mb-4(data-aos="slide-right")
         ul.lista-ul.lista-ul.lista-ul--color
           li 
             i.fas.fa-paper-plane 
@@ -47,14 +47,14 @@
             span Se dispone de un mejor canal de comunicación
     
       
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="slide-left")
       h5 Figura 1
       span Beneficio Automatización Proceso PQR
         
-    img(src='@/assets/curso/tema1/Vec1.svg', alt='Ubicación de mercancía', class='img-fluid').col-9.pos1 
-    p.mb-4 En tema de normativa, la constitución política nacional en el artículo 23 reza que toda persona tiene derecho a interponer o presentar peticiones de forma respetuosa ante las autoridades, estas peticiones pueden ser de interés general o entidades públicas o privadas, por la ley 755 de 2015 reguló en Colombia el derecho fundamental de las personas a interponer peticiones 
+    img(src='@/assets/curso/tema1/Vec1.svg', alt='Ubicación de mercancía', class='img-fluid').col-9.pos1(data-aos="slide-left")
+    p.mb-4(data-aos="slide-left") En tema de normativa, la constitución política nacional en el artículo 23 reza que toda persona tiene derecho a interponer o presentar peticiones de forma respetuosa ante las autoridades, estas peticiones pueden ser de interés general o entidades públicas o privadas, por la ley 755 de 2015 reguló en Colombia el derecho fundamental de las personas a interponer peticiones 
     
-    .tarjeta.color-primario.p-3.mb-5
+    .tarjeta.color-primario.p-3.mb-5(data-aos="slide-right")
       .row.justify-content-around.align-items-center.px-5
         .col-3.col-sm-2.col-lg-1.esp
           img(src="@/assets/curso/tema1/vec2.svg")
@@ -69,12 +69,12 @@
     separador
 
 
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenidoc
       h2 1.1 Atención de peticiones, quejas y reclamos
-    P.mb-4 En la atención de las solicitudes y/o comunicados de peticiones, quejas y reclamos, tiene para cada una de ellas, un tratamiento específico, aunque usa un mismo canal administrativo, tiene tratamiento y seguimiento particular, por esta razón, el primer paso del proceso de PQR es el formato de recepción, el cual, debe de manera clara y definida determinar en cuál de las tres tipologías ha de clasificarse la inquietud del cliente respecto del servicio prestado (Universidad Manuela Beltrán, s.f.)  
-    P.mb-4 En Colombia se disponen de normatividad para las peticiones, quejas, reclamos, solicitudes, denuncias, esta normativa, la pueden consultar en los siguientes anexos:
+    P.mb-4(data-aos="slide-right") En la atención de las solicitudes y/o comunicados de peticiones, quejas y reclamos, tiene para cada una de ellas, un tratamiento específico, aunque usa un mismo canal administrativo, tiene tratamiento y seguimiento particular, por esta razón, el primer paso del proceso de PQR es el formato de recepción, el cual, debe de manera clara y definida determinar en cuál de las tres tipologías ha de clasificarse la inquietud del cliente respecto del servicio prestado (Universidad Manuela Beltrán, s.f.)  
+    P.mb-4(data-aos="slide-right") En Colombia se disponen de normatividad para las peticiones, quejas, reclamos, solicitudes, denuncias, esta normativa, la pueden consultar en los siguientes anexos:
     
-    .tarjeta.color-1.p-3.mb-4
+    .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
         .col-2.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema1/vec3.svg")
@@ -87,7 +87,7 @@
                 span Ver más 
                 i.fas.fa-link 
 
-    .tarjeta.color-1.p-3.mb-4
+    .tarjeta.color-1.p-3.mb-4(data-aos="slide-right")
       .row.justify-content-around.align-items-center.px-5
         .col-2.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema1/vec3.svg")
@@ -100,7 +100,7 @@
                 span Ver más 
                 i.fas.fa-link
 
-    .tarjeta.color-1.p-3.mb-4
+    .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
         .col-2.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema1/vec3.svg")
@@ -113,7 +113,7 @@
                 span Ver más 
                 i.fas.fa-link
 
-    .tarjeta.color-1.p-3.mb-4
+    .tarjeta.color-1.p-3.mb-4(data-aos="slide-right")
       .row.justify-content-around.align-items-center.px-5
         .col-2.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema1/vec3.svg")
@@ -126,7 +126,7 @@
                 span Ver más 
                 i.fas.fa-link
 
-    .tarjeta.color-1.p-3.mb-4
+    .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
         .col-2.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema1/vec3.svg")
@@ -139,19 +139,19 @@
                 span Ver más 
                 i.fas.fa-link
 
-    p.mb-5 Las entidades tienen tiempos estipulados para dar respuesta a una petición, queja o reclamo en un tiempo de 15 días hábiles después de la recepción. 
+    p.mb-5(data-aos="slide-up") Las entidades tienen tiempos estipulados para dar respuesta a una petición, queja o reclamo en un tiempo de 15 días hábiles después de la recepción. 
     
-    h4.mb-5 Proceso General para la Recepción de PQR:
+    h4.mb-5(data-aos="slide-up") Proceso General para la Recepción de PQR:
     
-    figure.mb-5
+    figure.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/tema1/vec4.svg', alt='Ubicación de mercancía', class='img-fluid').col-10.pos2
     
-    figure.mb-5
+    figure.mb-5(data-aos="flip-up")
       .video
         iframe(width="942" height="530" src="https://www.youtube.com/embed/PSiBtkl75Hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p.mb-5 Hablando de PQR es momento de que veamos las diferencias entre peticiones, quejas y reclamos:
+    p.mb-5(data-aos="slide-up") Hablando de PQR es momento de que veamos las diferencias entre peticiones, quejas y reclamos:
 
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-5(data-aos="flip-up")
       .py-4.py-md-5(titulo="Peticiones" :icono="require('@/assets/curso/tema1/1.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
@@ -177,7 +177,7 @@
             p El proceso de reclamo de un cliente siempre hace referencia a la inconformidad posterior que él tiene cuando evidencia una diferencia entre lo que la organización, marca o persona ofreció y lo que el cliente obtuvo.  
           p El proceso de recepción de reclamo es el mismo que se aplica en los casos de petición o queja, también se debe dejar evidenciado en el formato que se usa, que se está radicando o elevando una queja, ésta debe ser solucionada por parte de persona natural o jurídica dentro de los tiempos establecidos según las normas. 
        
-    .row.p-2.mb-4
+    .row.p-2.mb-4(data-aos="flip-up")
       .col.col-12.col-lg-4.mb-3
         .tarjeta.p-4(style='background-color: #FFDE96')
           img.img90.m-auto.mb-4(src='@/assets/curso/tema1/4.svg', alt='', class='img-fluid')
@@ -195,13 +195,13 @@
           p.fw-bold.mb-0 Reclamo
           p Disconformidad relacionada entre lo prometido y lo recibido
      
-    p.mb-5 Los siguientes recursos hacen referencia a las peticiones, quejas o reclamos, después de observarlos, analicemos las actitudes y acciones de los clientes frente a las situaciones
+    p.mb-5(data-aos="slide-up") Los siguientes recursos hacen referencia a las peticiones, quejas o reclamos, después de observarlos, analicemos las actitudes y acciones de los clientes frente a las situaciones
     separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="slide-up")
       h2 1.2 Manejo de sugerencias y recomendaciones
 
-    .row.mb-5
+    .row.mb-5(data-aos="slide-up")
       .col.col-12.col-lg-4.position-relative
         .sobre-flotante-t3
           img.w-50(src='@/assets/curso/banner/img04.svg', class='img-fluid')
@@ -211,9 +211,9 @@
         p Las PQR comprende unos paso a paso, dan inicio cuando el cliente, consumidor o usuario presenta la solicitud ante la entidad, el proveedor u organización, de esta manera se da apertura a la posibilidad de rectificar o subsanar las fallas que se presentaron en el servicio prestado y se construye el mecanismo de respuesta satisfactorio en pro del mejoramiento de la operatividad de la organización y la satisfacción del cliente.
         p El asertividad en el manejo de las sugerencias y los reclamos hacen la diferencia entre conservar un cliente o perderlo, en el proceso de quejas y reclamaciones se debe dar prioridad las situaciones que afectan la fidelización de clientes, ante todo en el aspecto tiempo de atención.  
 
-    p.mb-5 Dentro de los procesos de PQR se recomienda acciones para realizar este proceso con asertividad, estos son:
+    p.mb-5(data-aos="slide-right") Dentro de los procesos de PQR se recomienda acciones para realizar este proceso con asertividad, estos son:
     
-    .row.mb-5
+    .row.mb-5(data-aos="slide-right")
       ul.lista-ul.lista-ul.lista-ul--color
         li 
           i.fas.fa-paper-plane 
@@ -231,9 +231,9 @@
           i.fas.fa-paper-plane 
           span Ser proactivo, buscar la manera de lograr un buen cierre de la situación, si es posible en corto tiempo
     
-    p.mb-5 Las sugerencias y recomendaciones son dos conceptos alineados en el propósito de mejora de un proceso o los procedimientos que lo conforman, la sugerencia nace como la manifestación de una propuesta o idea que puede ayudar a mejorar un proceso, la recomendación surge como satisfacción del servicio o atención recibida, sin embargo, cada uno, tiene una filosofía diferente. Por eso, las organizaciones dan administración a cada uno de los conceptos así:
+    p.mb-5(data-aos="slide-left") Las sugerencias y recomendaciones son dos conceptos alineados en el propósito de mejora de un proceso o los procedimientos que lo conforman, la sugerencia nace como la manifestación de una propuesta o idea que puede ayudar a mejorar un proceso, la recomendación surge como satisfacción del servicio o atención recibida, sin embargo, cada uno, tiene una filosofía diferente. Por eso, las organizaciones dan administración a cada uno de los conceptos así:
     
-    .row.mb-5
+    .row.mb-5(data-aos="flip-up")
       .col-6.mb-3
         .tarjeta(style='background-color: #FFDE96').bor
           p.fw-bold.bor2 Sugerencias
@@ -250,10 +250,10 @@
             p Refiere sugerir algo, en el ámbito comercial se puede decir que las recomendaciones enmarcan satisfacción en el servicio, la atención o el buen producto, implica que un cliente sugiere a otro la experiencia en el servicio, la atención o el producto porque su experiencia ha sido satisfactoria. 
     separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="slide-up")
       h2 1.3 Valoración de las felicitaciones
 
-    .contenedor.p-5.position-relative.mb-5(style='background-color: #FEF9F0')
+    .contenedor.p-5.position-relative.mb-5(style='background-color: #FEF9F0')(data-aos="flip-up")
         .row.justify-content-center.py-5
           .col-md-5
             .rounded-3.overflow-hidden
@@ -269,7 +269,7 @@
                 span Ver más 
                 i.fas.fa-link
     
-    .cajon.color-acento-contenido.p-4.mb-4
+    .cajon.color-acento-contenido.p-4.mb-4(data-aos="flip-up")
       p.mb-1 Las manifestaciones de felicitaciones deben ser muy valoradas por la organización, aunque nacen en un principio por el servicio del colaborador, estas se traducen en imagen para la organización, confianza, credibilidad en la vocación por cumplir de forma eficiente las promesas presentadas el cliente al momento de tomar los servicios.
 
 

@@ -10,11 +10,11 @@
           h1 Caracterización de Servicio 
     
     p Atender un cliente, sin distinción de la organización, tiene como objetivo primario orientarlo en la utilización del servicio, adquisición del bien o transacción requerida, para el caso de servicios postales, atención al cliente está principalmente enfocada a la movilización de elementos con origen y/o destino. Es cliente quién envía y es cliente quién recibe. 
-    p Los factores que intervienen en la atención al cliente con calidad son:
-    br
-    .col-10.esp3
+    p.mb-5 Los factores que intervienen en la atención al cliente con calidad son:
+  
+    .col-10.esp3.mb-5
       img(src="@/assets/curso/tema2/vec1.svg")
-    br  
+   
     .row.mb-5.d-flex.align-items-center
       .col.col-12.col-lg-8.pt-5.pos2
         .bloque-texto-d.color-primario.p-4
@@ -29,7 +29,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Servicios y solicitudes en mensajería aérea
 
-    P Los servicios postales en mensajería aérea, sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
+    P.mb-4 Los servicios postales en mensajería aérea, sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
     SlyderD(:datos="datosSlyder")
 
     .row.mb-5
@@ -47,7 +47,7 @@
       h2 2.2 Portafolio de servicios, canales y trazabilidad
 
     p Documento que contiene la presentación de una organización o compañía, en él se detalla la oferta comercial, sea de productos o servicios, las características de estos, el portafolio también contiene la misión, visión, políticas, principios, valores, certificaciones y normas e incluso se puede referir los nombres de clientes y empresas con la que se tienen relaciones comerciales. 
-    p Una empresa de servicios postales y transporte de mercancías oferta dentro de su <b>portafolio de servicios</b> lo siguiente:
+    p.mb-4 Una empresa de servicios postales y transporte de mercancías oferta dentro de su <b>portafolio de servicios</b> lo siguiente:
 
     TabsA.color-acento-contenido.mb-5
       .tarjeta.p-3(titulo="Logística de documentos")
@@ -137,8 +137,8 @@
                 span.text-bold d. 
                 p Sacas M.
                 
-    p Cada una de las empresas de servicios postales y transporte de mercancías, aplica diferentes procesos en órdenes específicos dentro de sus organizaciones para atender a sus clientes buscando su satisfacción, de allí, se derivan los portafolios de servicios, sus canales de atención y su trazabilidad.
-    p Ya visto los portafolios de servicios, los siguientes conceptos serían:
+    p.mb-4 Cada una de las empresas de servicios postales y transporte de mercancías, aplica diferentes procesos en órdenes específicos dentro de sus organizaciones para atender a sus clientes buscando su satisfacción, de allí, se derivan los portafolios de servicios, sus canales de atención y su trazabilidad.
+    p.mb-4 Ya visto los portafolios de servicios, los siguientes conceptos serían:
 
 
     TabsB.color-acento-contenido.mb-5

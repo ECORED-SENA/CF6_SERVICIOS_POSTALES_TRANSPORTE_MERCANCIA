@@ -9,9 +9,8 @@
             span 3
           h1 Factores de atención al Cliente
 
-    p En la atención al cliente intervienen muchos factores que pueden afectar de forma positiva a la organización, dichos factores intervienen directamente con la atención al cliente, entre dichos factores se enumeran:
-    br
-    br
+    p.mb-5 En la atención al cliente intervienen muchos factores que pueden afectar de forma positiva a la organización, dichos factores intervienen directamente con la atención al cliente, entre dichos factores se enumeran:
+
     ImagenInfografica.color-primario.mb-5
       template(v-slot:imagen)
         figure
@@ -39,8 +38,8 @@
       .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="72%" numero="")
         .texto-seis-alt.color-secundario
           p  <b>Ser creativo:</b>  la prestación de un servicio con atención permite identificar necesidades del cliente, y así diseñar soluciones rápidas y precisas a las mismas, hacer sentir al cliente que sus necesidades son prioridad en atención. 
-    br      
-    p La búsqueda de relaciones comerciales a largo plazo, el trabajar en experiencias que generen lealtad y sentido de pertenencia, ir más allá de la satisfacción superando expectativas, disponiendo canales comunicación efectivos generando confiabilidad, credibilidad, imagen de calidad, eficacia, eficiencia, para brindar una óptima atención, fidelizar clientes, obtener más clientes y así una sostenibilidad en el mercado.
+         
+    p.mb-5 La búsqueda de relaciones comerciales a largo plazo, el trabajar en experiencias que generen lealtad y sentido de pertenencia, ir más allá de la satisfacción superando expectativas, disponiendo canales comunicación efectivos generando confiabilidad, credibilidad, imagen de calidad, eficacia, eficiencia, para brindar una óptima atención, fidelizar clientes, obtener más clientes y así una sostenibilidad en el mercado.
     separador
     
     #t_3_1.titulo-segundo.color-acento-contenido
@@ -81,17 +80,15 @@
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Ciclo de servicio al cliente
 
-    p El ciclo del servicio del cliente es todo el proceso conjunto desde el inicio de la solicitud hasta la recepción final en destino con el ingrediente final de satisfacción que permita que se logre una fidelización que, como consecuencia, en próxima necesidad, este cliente, vuelva a solicitar el servicio al mismo proveedor. Cumplido lo anterior, se podrá afirmar que ese proceso logró completar el ciclo del servicio al cliente.
-    p El ciclo de puede de servicio contiene las siguientes etapas:
-    br
-    br
-    .col-9.pos3
+    p.mb-4 El ciclo del servicio del cliente es todo el proceso conjunto desde el inicio de la solicitud hasta la recepción final en destino con el ingrediente final de satisfacción que permita que se logre una fidelización que, como consecuencia, en próxima necesidad, este cliente, vuelva a solicitar el servicio al mismo proveedor. Cumplido lo anterior, se podrá afirmar que ese proceso logró completar el ciclo del servicio al cliente.
+    p.mb-4 El ciclo de puede de servicio contiene las siguientes etapas:
+    
+    .col-9.pos3.mb-4
       img(src="@/assets/curso/tema3/vec2.svg")
-    br
-    br
-    p Para que se dé un servicio al cliente óptimo las organizaciones deben trabajar constantemente en aspectos como:
-    br
-    .col-9.pos3
+    
+    p.mb-4 Para que se dé un servicio al cliente óptimo las organizaciones deben trabajar constantemente en aspectos como:
+    
+    .col-10.pos3.mb-4
       img(src="@/assets/curso/tema3/vec3.svg")
 
 

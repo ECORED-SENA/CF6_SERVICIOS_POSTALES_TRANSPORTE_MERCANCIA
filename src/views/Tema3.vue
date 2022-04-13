@@ -84,7 +84,7 @@
     p.mb-4(data-aos="slide-right") El ciclo de puede de servicio contiene las siguientes etapas:
     
     .col-9.pos3.mb-5(data-aos="flip-up")
-      img(src="@/assets/curso/tema3/vec2.svg")
+      img(src="@/assets/curso/tema3/vec2.png")
     
     p.mb-5(data-aos="slide-right") Para que se dé un servicio al cliente óptimo las organizaciones deben trabajar constantemente en aspectos como:
     

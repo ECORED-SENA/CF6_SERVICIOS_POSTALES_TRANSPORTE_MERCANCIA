@@ -104,6 +104,15 @@
     figure.mb-5(data-aos="flip-up")
       img.col-7.pos4(src="@/assets/curso/tema4/vec8.svg")
 
+    .col.col-12.col-lg-4.position-relative
+      .sobre-flotante-t4
+        img.w-50(src='@/assets/curso/banner/img04.svg', class='img-fluid')
+      .sobre-flotante-t5
+        img.w-50(src='@/assets/curso/banner/sobre.svg', class='img-fluid')
+      picture
+        mg(src='@/assets/curso/tema1/vec8.svg', alt='Ubicación de mercancía', class='img-fluid')
+
+
 </template>
 
 <script>

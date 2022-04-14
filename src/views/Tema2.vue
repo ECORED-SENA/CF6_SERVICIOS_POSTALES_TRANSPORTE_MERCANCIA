@@ -20,10 +20,10 @@
         .bloque-texto-d.color-primario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Los factores de servicio al cliente son acciones generan diferenciación y esta diferenciación se refleja en el mercado, el mercado cada día es más competente y para permanecer en el medio se debe generar diferenciación del servicio y atención, no generar procesos de fidelización genera grandes costos y menos participación en el mercado, los factores de atención al cliente hacen parte de la raíz de la organización y no estar atentos a este componente organizacional genera perdida de cliente y se abre camino a la competencia.
-            i.fas.fa-quote-right
+            P.text-regular Los factores de servicio al cliente son acciones generan diferenciación y esta diferenciación se refleja en el mercado, el mercado cada día es más competente y para permanecer en el medio se debe generar diferenciación del servicio y atención, no generar procesos de fidelización genera grandes costos y menos participación en el mercado, los factores de atención al cliente hacen parte de la raíz de la organización y no estar atentos a este componente organizacional genera perdida de cliente y se abre camino a la competencia.
           .bloque-texto-d__autor
             .h5.mb-0 (Arellano Díaz, 2017)
+              i.fas.fa-quote-right
     separador
 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-right")

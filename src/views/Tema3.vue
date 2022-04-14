@@ -88,7 +88,7 @@
     
     p.mb-5(data-aos="slide-right") Para que se dé un servicio al cliente óptimo las organizaciones deben trabajar constantemente en aspectos como:
     
-    .col-10.pos3.mb-4(data-aos="flip-up")
+    .col-12.pos3.mb-4(data-aos="flip-up")
       img(src="@/assets/curso/tema3/vec3.svg")
 
 

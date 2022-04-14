@@ -16,7 +16,7 @@
     p.mb-5(data-aos="slide-right") En la actualidad las empresas pueden disponer de una serie de herramientas tecnológicas que facilitan el proceso estratégico de servicio al cliente generando crecimiento no solo desde lo económico y la participación en el mercado sino también desde el reconocimiento e identificaron de la empresa en el medio, estas herramientas tecnológicas facilitan procesos como:
       
     figure.mb-5(data-aos="flip-up")
-      .col-9.pos4
+      .col-10.pos4
         img(src="@/assets/curso/tema4/vec1.svg")
         
     .tarjeta.color-primario.p-3.mb-5(data-aos="flip-up")

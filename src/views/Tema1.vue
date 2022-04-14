@@ -76,8 +76,8 @@
     
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
-        .col-2.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/vec3.svg")
+        .col-1.col-sm-1.col-lg-1
+          img.p-3(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
@@ -89,8 +89,8 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-right")
       .row.justify-content-around.align-items-center.px-5
-        .col-2.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/vec3.svg")
+        .col-1.col-sm-1.col-lg-1
+          img.p-3(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
@@ -102,8 +102,8 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
-        .col-2.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/vec3.svg")
+        .col-1.col-sm-1.col-lg-1
+          img.p-3(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
@@ -115,8 +115,8 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-right")
       .row.justify-content-around.align-items-center.px-5
-        .col-2.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/vec3.svg")
+        .col-1.col-sm-1.col-lg-1
+          img.p-3(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
@@ -128,8 +128,8 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
-        .col-2.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/vec3.svg")
+        .col-1.col-sm-1.col-lg-1
+          img.p-3(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
@@ -254,12 +254,11 @@
       h2 1.3 Valoración de las felicitaciones
 
     .contenedor.p-5.position-relative.mb-5(style='background-color: #FEF9F0')(data-aos="flip-up")
-        .row.justify-content-center.py-5
-          .col-md-5
-            .rounded-3.overflow-hidden
-              figure.img-rounded
-                img(src='@/assets/curso/tema1/vec5.svg', alt='Texto que describa la imagen')
-          .col-md-5.mb-4.mb-md-0.mt-5
+        .row.justify-content-center.py-1
+          .col-4.izqimg
+            figure
+              img(src='@/assets/curso/tema1/vec5.svg', alt='Texto que describa la imagen')
+          .col-md-6.mb-4.mb-md-0.mt-5
             h4 Infografía:
             h4 Valoración de las felicitaciones
             .titulo-segundo.color-acento-contenido

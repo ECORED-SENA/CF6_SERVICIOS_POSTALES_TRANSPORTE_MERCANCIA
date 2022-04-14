@@ -2,10 +2,10 @@
 .curso-main-container.pb-3.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .row(data-aos="slide-right")
+    .row
       .col.col-12
         .titulo-principal.color-acento-contenido
-          .titulo-principal__numero
+          .titulo-principal__numero(data-aos="slide-right")
             span 2 
           h1 Caracterización de Servicio 
     
@@ -26,8 +26,8 @@
               i.fas.fa-quote-right
     separador
 
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-right")
-      h2 2.1 Servicios y solicitudes en mensajería aérea
+    #t_2_1.titulo-segundo.color-acento-contenido
+      h2(data-aos="flip-right") 2.1 Servicios y solicitudes en mensajería aérea
 
     P.mb-4(data-aos="flip-right") Los servicios postales en mensajería aérea, sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
     
@@ -149,15 +149,15 @@
             p Los Canales de distribución, del que hacen uso las empresas de servicios postales y transporte de mercancías y los cuales son de vital importancia para la operación y cumplimiento de la promesa de valor para con sus clientes y se dividen en:
         .row.col-10.pos3      
           .col.col-10.col-lg-4
-            .tarjeta.p-4(style='background-color: #FFDE96')
+            .tarjeta.p-4.mb-2(style='background-color: #FFDE96')
               img.img100.mb-4(src='@/assets/curso/tema2/vec2.svg', alt='', class='img-fluid')
               p.margtx3 <b>Canal Convencional,</b> dirigido al público general o usuarios tradicionales.
           .col.col-10.col-lg-4
-            .tarjeta.p-4(style='background-color: #FFEECA')
+            .tarjeta.p-4.mb-2(style='background-color: #FFEECA')
               img.img100.mb-4(src='@/assets/curso/tema2/vec2.svg', alt='', class='img-fluid')
               p.margtx3 <b>Canal Especializado</b> (depende del tipo y característica de los objetos postales y las mercancías)
           .col.col-10.col-lg-4
-            .tarjeta.p-4(style='background-color: #FFDE96')
+            .tarjeta.p-4.mb-2(style='background-color: #FFDE96')
               img.img100.mb-4(src='@/assets/curso/tema2/vec2.svg', alt='', class='img-fluid')
               p <b>Canal Institucional</b> dirigido a clientes oficiales que realizan ventas institucionales, generalmente son restaurantes, colegios, clubes, hoteles. 
 
@@ -176,8 +176,8 @@
         img.col-8.pos3(src='@/assets/curso/tema2/vec5.svg')
 
 
-    .cajon.color-primario.bg-3-claro.p-4.mb-4.col-12
-      p(data-aos="slide-up") Recordemos que las empresas de servicios postales y transportes de mercancías deben conservar los archivos de los envíos realizados y esto lo debe hacer tanto en físico y conservarlo por tres años como mínimo y digital.
+    .cajon.color-primario.bg-3-claro.p-4.mb-4.col-12(data-aos="slide-right")
+      p Recordemos que las empresas de servicios postales y transportes de mercancías deben conservar los archivos de los envíos realizados y esto lo debe hacer tanto en físico y conservarlo por tres años como mínimo y digital.
 
 
 

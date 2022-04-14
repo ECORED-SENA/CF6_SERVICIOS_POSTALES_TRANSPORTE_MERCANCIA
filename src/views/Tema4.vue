@@ -51,44 +51,39 @@
           .col-lg-12      
             SlyderA(data-aos="fade-down") 
               .row.justify-content-center.align-items-center
-                .col-2 
-                  .col-2 
-                  figure
+                .col-1
+                  figure.mb-4
                     img(src="@/assets/curso/tema4/vec3.svg")
                 .col-8
-                  p Los medios de recepción de las PQR las cuales pueden ser verbal, telefónica, escrita o internet. 
+                  p.mb-4 Los medios de recepción de las PQR las cuales pueden ser verbal, telefónica, escrita o internet. 
 
               .row.justify-content-center.align-items-center
-                .col-2 
-                  .col-2 
-                  figure
+                .col-1
+                  figure.mb-4
                     img(src="@/assets/curso/tema4/vec4.svg")
                 .col-8
-                  p Definir los documentos soporte que se debe anexar a la solicitud y documentos adicionales como certificaciones de cuentas bancarias, esto para cuando se hace reclamaciones que requieren indemnizaciones. 
+                  p.mb-4 Definir los documentos soporte que se debe anexar a la solicitud y documentos adicionales como certificaciones de cuentas bancarias, esto para cuando se hace reclamaciones que requieren indemnizaciones. 
 
               .row.justify-content-center.align-items-center
-                .col-2 
-                  .col-2 
-                  figure
+                .col-1 
+                  figure.mb-4
                     img(src="@/assets/curso/tema4/vec5.svg")
                 .col-8
-                  p Horarios de atención
+                  p.mb-4 Horarios de atención
 
               .row.justify-content-center.align-items-center
-                .col-2 
-                  .col-2 
-                  figure
+                .col-1
+                  figure.mb-4
                     img(src="@/assets/curso/tema4/vec6.svg")
                 .col-8
-                  p Si el reclamante no es el destinatario ni el remitente se requiere carta de cesión de derechos, la cual para puede ser emitida por cualquiera de las partes, y con copia de documento de identidad
+                  p.mb-4 Si el reclamante no es el destinatario ni el remitente se requiere carta de cesión de derechos, la cual para puede ser emitida por cualquiera de las partes, y con copia de documento de identidad
 
               .row.justify-content-center.align-items-center
-                .col-2 
-                  .col-2 
-                  figure
+                .col-1
+                  figure.mb-4
                     img(src="@/assets/curso/tema4/vec7.svg")
                 .col-8
-                  p Las reclamaciones pueden ser realizadas por el remitente, el destinatario o por tercero con autorización. 
+                  p.mb-4 Las reclamaciones pueden ser realizadas por el remitente, el destinatario o por tercero con autorización. 
     separador
 
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="slide-right")
@@ -104,13 +99,14 @@
     figure.mb-5(data-aos="flip-up")
       img.col-7.pos4(src="@/assets/curso/tema4/vec8.svg")
 
-    .col.col-12.col-lg-4.position-relative
-      .sobre-flotante-t4
-        img.w-50(src='@/assets/curso/banner/img04.svg', class='img-fluid')
-      .sobre-flotante-t5
-        img.w-50(src='@/assets/curso/banner/sobre.svg', class='img-fluid')
-      picture
-        mg(src='@/assets/curso/tema1/vec8.svg', alt='Ubicación de mercancía', class='img-fluid')
+    .row
+      .col.col-12.col-lg-4.position-relative
+        .sobre-flotante-t4
+          img.w-50(src='@/assets/curso/banner/img04.svg', class='img-fluid')
+        .sobre-flotante-t5
+          img.w-50(src='@/assets/curso/banner/sobre.svg', class='img-fluid')
+        picture
+          mg(src='@/assets/curso/tema1/vec8.svg', alt='Ubicación de mercancía', class='img-fluid')
 
 
 </template>

@@ -8,11 +8,10 @@
           .titulo-principal__numero
             span 4
           h1 Estrategias de servicio al cliente
-
-    .row.mb-4
-      p.col-6(data-aos="slide-right") <b>Una estrategia es aquella cadena planeada y medida de eventos que permite lograr objetivos predefinidos en el tiempo esperado y con la sustancia de resultados requerida por el objetivo que se persigue.</b>
-      p.col-6(data-aos="slide-left") Los servicios postales, al igual que todos los procesos de servicio, buscan garantizar su continuidad mediante estrategias dirigidas principalmente a los clientes (no solamente a ellos) que permitan los espacios de desarrollo del negocio, su medida, mejora continua y competitividad en el mercado.  
-        
+    .row
+      p.col-6.mb-4(data-aos="slide-right") <b>Una estrategia es aquella cadena planeada y medida de eventos que permite lograr objetivos predefinidos en el tiempo esperado y con la sustancia de resultados requerida por el objetivo que se persigue.</b>
+      p.col-6.mb-4(data-aos="slide-left") Los servicios postales, al igual que todos los procesos de servicio, buscan garantizar su continuidad mediante estrategias dirigidas principalmente a los clientes (no solamente a ellos) que permitan los espacios de desarrollo del negocio, su medida, mejora continua y competitividad en el mercado.  
+          
     p.mb-5(data-aos="slide-right") En la actualidad las empresas pueden disponer de una serie de herramientas tecnológicas que facilitan el proceso estratégico de servicio al cliente generando crecimiento no solo desde lo económico y la participación en el mercado sino también desde el reconocimiento e identificaron de la empresa en el medio, estas herramientas tecnológicas facilitan procesos como:
       
     figure.mb-5(data-aos="flip-up")
@@ -20,7 +19,7 @@
         img(src="@/assets/curso/tema4/vec1.svg")
         
     .tarjeta.color-primario.p-3.mb-5(data-aos="flip-up")
-      .row.justify-content-around.align-items-center.px-5
+      .row.justify-content-around.align-items-center.px-3
         .col-3.col-sm-2.col-lg-1.esp
           img(src="@/assets/curso/tema1/vec2.svg")
         .col
@@ -51,39 +50,39 @@
           .col-lg-12      
             SlyderA(data-aos="fade-down") 
               .row.justify-content-center.align-items-center
-                .col-1
-                  figure.mb-4
-                    img(src="@/assets/curso/tema4/vec3.svg")
+                .col-2
+                  figure
+                    img(src="@/assets/curso/tema4/vec3.svg" style="width: 90px")
                 .col-8
-                  p.mb-4 Los medios de recepción de las PQR las cuales pueden ser verbal, telefónica, escrita o internet. 
+                  p.m-4 Los medios de recepción de las PQR las cuales pueden ser verbal, telefónica, escrita o internet. 
 
               .row.justify-content-center.align-items-center
-                .col-1
-                  figure.mb-4
-                    img(src="@/assets/curso/tema4/vec4.svg")
+                .col-2
+                  figure
+                    img(src="@/assets/curso/tema4/vec4.svg" style="width: 90px")
                 .col-8
-                  p.mb-4 Definir los documentos soporte que se debe anexar a la solicitud y documentos adicionales como certificaciones de cuentas bancarias, esto para cuando se hace reclamaciones que requieren indemnizaciones. 
+                  p.m-4 Definir los documentos soporte que se debe anexar a la solicitud y documentos adicionales como certificaciones de cuentas bancarias, esto para cuando se hace reclamaciones que requieren indemnizaciones. 
 
               .row.justify-content-center.align-items-center
-                .col-1 
-                  figure.mb-4
-                    img(src="@/assets/curso/tema4/vec5.svg")
+                .col-2
+                  figure
+                    img(src="@/assets/curso/tema4/vec5.svg" style="width: 90px")
                 .col-8
-                  p.mb-4 Horarios de atención
+                  p.m-4 Horarios de atención
 
               .row.justify-content-center.align-items-center
-                .col-1
-                  figure.mb-4
-                    img(src="@/assets/curso/tema4/vec6.svg")
+                .col-2
+                  figure
+                    img(src="@/assets/curso/tema4/vec6.svg" style="width: 90px")
                 .col-8
-                  p.mb-4 Si el reclamante no es el destinatario ni el remitente se requiere carta de cesión de derechos, la cual para puede ser emitida por cualquiera de las partes, y con copia de documento de identidad
+                  p.m-4 Si el reclamante no es el destinatario ni el remitente se requiere carta de cesión de derechos, la cual para puede ser emitida por cualquiera de las partes, y con copia de documento de identidad
 
               .row.justify-content-center.align-items-center
-                .col-1
-                  figure.mb-4
-                    img(src="@/assets/curso/tema4/vec7.svg")
+                .col-2
+                  figure
+                    img(src="@/assets/curso/tema4/vec7.svg" style="width: 90px")
                 .col-8
-                  p.mb-4 Las reclamaciones pueden ser realizadas por el remitente, el destinatario o por tercero con autorización. 
+                  p.m-4 Las reclamaciones pueden ser realizadas por el remitente, el destinatario o por tercero con autorización. 
     separador
 
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="slide-right")

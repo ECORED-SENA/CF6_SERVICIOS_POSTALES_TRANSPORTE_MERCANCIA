@@ -50,12 +50,13 @@
     .titulo-sexto.color-acento-contenido(data-aos="slide-left")
       h5 Figura 1
       span Beneficio Automatización Proceso PQR
-        
-    img(src='@/assets/curso/tema1/Vec1.svg', alt='Ubicación de mercancía', class='img-fluid').col-9.pos1(data-aos="slide-left")
+    
+    figure.col-12.mb-5(data-aos="slide-left")    
+      img(src='@/assets/curso/tema1/Vec1.svg', alt='Ubicación de mercancía', class='img-fluid')
     p.mb-4(data-aos="slide-left") En tema de normativa, la constitución política nacional en el artículo 23 reza que toda persona tiene derecho a interponer o presentar peticiones de forma respetuosa ante las autoridades, estas peticiones pueden ser de interés general o entidades públicas o privadas, por la ley 755 de 2015 reguló en Colombia el derecho fundamental de las personas a interponer peticiones 
     
     .tarjeta.color-primario.p-3.mb-5(data-aos="slide-right")
-      .row.justify-content-around.align-items-center.px-5
+      .row.justify-content-around.align-items-center.px-3
         .col-3.col-sm-2.col-lg-1.esp
           img(src="@/assets/curso/tema1/vec2.svg")
         .col

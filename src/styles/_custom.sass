@@ -224,6 +224,8 @@
         font-size: small
       @media screen and (max-width: 767px)        
         font-size: medium
+  &__texto ul 
+    opacity: 0 
 
     p, ol
       display: none      
@@ -233,6 +235,9 @@
       border-radius: 7px
     p, ol
       display: block 
+    .tarjeta-text-up__texto ul 
+      opacity: 1
+  
 
 .postm3
   height: 31px
@@ -299,6 +304,8 @@
     bottom: 10%
   @media screen and (max-width: 300px)
     bottom: -5%
+  @media screen and (max-width: 992px)
+    display: none
 
 
 .sobre-flotante-t5
@@ -314,3 +321,5 @@
     bottom: 10%
   @media screen and (max-width: 300px)
     bottom: -5%
+  @media screen and (max-width: 992px)
+    display: none

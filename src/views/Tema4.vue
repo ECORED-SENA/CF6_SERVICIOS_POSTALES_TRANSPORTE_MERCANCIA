@@ -9,18 +9,18 @@
             span 4
           h1 Estrategias de servicio al cliente
     .row
-      p.col-6.mb-4(data-aos="slide-right") <b>Una estrategia es aquella cadena planeada y medida de eventos que permite lograr objetivos predefinidos en el tiempo esperado y con la sustancia de resultados requerida por el objetivo que se persigue.</b>
-      p.col-6.mb-4(data-aos="slide-left") Los servicios postales, al igual que todos los procesos de servicio, buscan garantizar su continuidad mediante estrategias dirigidas principalmente a los clientes (no solamente a ellos) que permitan los espacios de desarrollo del negocio, su medida, mejora continua y competitividad en el mercado.  
+      p.col-12.col-md-6.mb-4(data-aos="slide-right") <b>Una estrategia es aquella cadena planeada y medida de eventos que permite lograr objetivos predefinidos en el tiempo esperado y con la sustancia de resultados requerida por el objetivo que se persigue.</b>
+      p.col-12.col-md-6.mb-4(data-aos="slide-left") Los servicios postales, al igual que todos los procesos de servicio, buscan garantizar su continuidad mediante estrategias dirigidas principalmente a los clientes (no solamente a ellos) que permitan los espacios de desarrollo del negocio, su medida, mejora continua y competitividad en el mercado.  
           
     p.mb-5(data-aos="slide-right") En la actualidad las empresas pueden disponer de una serie de herramientas tecnológicas que facilitan el proceso estratégico de servicio al cliente generando crecimiento no solo desde lo económico y la participación en el mercado sino también desde el reconocimiento e identificaron de la empresa en el medio, estas herramientas tecnológicas facilitan procesos como:
       
     figure.mb-5(data-aos="flip-up")
-      .col-10.pos4
+      .col-12.col-md-10.pos4
         img(src="@/assets/curso/tema4/vec1.svg")
         
     .tarjeta.color-primario.p-3.mb-5(data-aos="flip-up")
       .row.justify-content-around.align-items-center.px-3
-        .col-3.col-sm-2.col-lg-1.esp
+        .col-6.col-sm-2.col-lg-1.esp
           img(src="@/assets/curso/tema1/vec2.svg")
         .col
           .row.justify-content-between.align-items-center
@@ -38,7 +38,7 @@
     p.mb-5(data-aos="slide-right") Ya definido con claridad los conceptos de petición, queja, reclamo y sugerencia, las estrategias de los servicios postales, en su diseño, claramente deberán enfocarse como mínimo en los siguientes objetivos  
     
     figure.mb-5(data-aos="flip-up")
-      .col-9.pos5
+      .col-12.col-md-9.pos5
         img(src="@/assets/curso/tema4/vec2.svg")
     
     p.mb-4(data-aos="slide-right") Para lograr desarrollar cada uno de los objetivos anteriores, las organizaciones de servicios postales están obligadas a implementar el mecanismo de PQRS, no solamente para lograr mejora continua de la atención al cliente, sino en no menor importancia, recaudar los datos y evidencias de forma permanente que permitan ser tabuladas y analizadas, convirtiéndolas en indicadores e información de garantía de mejora continua del servicio.
@@ -50,35 +50,35 @@
           .col-lg-12      
             SlyderA(data-aos="fade-down") 
               .row.justify-content-center.align-items-center
-                .col-2
+                .col-6.col-md-2
                   figure
                     img(src="@/assets/curso/tema4/vec3.svg" style="width: 100px")
                 .col-9
                   p.m-3 Los medios de recepción de las PQR las cuales pueden ser verbal, telefónica, escrita o internet. 
 
               .row.justify-content-center.align-items-center
-                .col-2
+                .col-6.col-md-2
                   figure
                     img(src="@/assets/curso/tema4/vec4.svg" style="width: 100px")
                 .col-9
                   p.m-3 Definir los documentos soporte que se debe anexar a la solicitud y documentos adicionales como certificaciones de cuentas bancarias, esto para cuando se hace reclamaciones que requieren indemnizaciones. 
 
               .row.justify-content-center.align-items-center
-                .col-2
+                .col-6.col-md-2
                   figure
                     img(src="@/assets/curso/tema4/vec5.svg" style="width: 100px")
                 .col-9
                   p.m-3 Horarios de atención
 
               .row.justify-content-center.align-items-center
-                .col-2
+                .col-6.col-md-2
                   figure
                     img(src="@/assets/curso/tema4/vec6.svg" style="width: 100px")
                 .col-9
                   p.m-3 Si el reclamante no es el destinatario ni el remitente se requiere carta de cesión de derechos, la cual para puede ser emitida por cualquiera de las partes, y con copia de documento de identidad
 
               .row.justify-content-center.align-items-center
-                .col-2
+                .col-6.col-md-2
                   figure
                     img(src="@/assets/curso/tema4/vec7.svg" style="width: 100px")
                 .col-9
@@ -96,7 +96,7 @@
       span <i>Ciclo de vida PQR</i>
 
     figure.mb-5(data-aos="flip-up")
-      img.col-7.pos4(src="@/assets/curso/tema4/vec8.svg")
+      img.col-12.col-md-7.pos4(src="@/assets/curso/tema4/vec8.svg")
 
     .row
       .col.col-12.col-lg-4.position-relative

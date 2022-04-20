@@ -12,7 +12,7 @@
     p(data-aos="slide-right") Atender un cliente, sin distinción de la organización, tiene como objetivo primario orientarlo en la utilización del servicio, adquisición del bien o transacción requerida, para el caso de servicios postales, atención al cliente está principalmente enfocada a la movilización de elementos con origen y/o destino. Es cliente quién envía y es cliente quién recibe. 
     p.mb-5(data-aos="slide-right") Los factores que intervienen en la atención al cliente con calidad son:
   
-    .col-10.esp3.mb-5(data-aos="flip-up")
+    .col-md-10.col-12.esp3.mb-5(data-aos="flip-up")
       img(src="@/assets/curso/tema2/vec1.svg")
    
     .row.mb-5.d-flex.align-items-center(data-aos="flip-up")
@@ -148,15 +148,15 @@
           .col-12
             p Los Canales de distribución, del que hacen uso las empresas de servicios postales y transporte de mercancías y los cuales son de vital importancia para la operación y cumplimiento de la promesa de valor para con sus clientes y se dividen en:
         .row.col-10.pos3      
-          .col.col-10.col-lg-4
+          .col.col-12.col-lg-4.col-md-10
             .tarjeta.p-4.mb-2(style='background-color: #FFDE96')
               img.img100.mb-4(src='@/assets/curso/tema2/vec2.svg', alt='', class='img-fluid')
               p.margtx3 <b>Canal Convencional,</b> dirigido al público general o usuarios tradicionales.
-          .col.col-10.col-lg-4
+          .col.col-12.col-lg-4.col-md-10
             .tarjeta.p-4.mb-2(style='background-color: #FFEECA')
               img.img100.mb-4(src='@/assets/curso/tema2/vec2.svg', alt='', class='img-fluid')
               p.margtx3 <b>Canal Especializado</b> (depende del tipo y característica de los objetos postales y las mercancías)
-          .col.col-10.col-lg-4
+          .col.col-12.col-lg-4.col-md-10
             .tarjeta.p-4.mb-2(style='background-color: #FFDE96')
               img.img100.mb-4(src='@/assets/curso/tema2/vec2.svg', alt='', class='img-fluid')
               p <b>Canal Institucional</b> dirigido a clientes oficiales que realizan ventas institucionales, generalmente son restaurantes, colegios, clubes, hoteles. 
@@ -173,7 +173,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 3
           span Ventajas de la trazabilidad
-        img.col-8.pos3(src='@/assets/curso/tema2/vec5.svg')
+        img.col-12.col-md-8.pos3(src='@/assets/curso/tema2/vec5.svg')
 
 
     .cajon.color-primario.bg-3-claro.p-4.mb-4.col-12(data-aos="slide-right")

@@ -57,7 +57,7 @@
     
     .tarjeta.color-primario.p-3.mb-5(data-aos="slide-right")
       .row.justify-content-around.align-items-center.px-3
-        .col-3.col-sm-2.col-lg-1.esp
+        .col-5.col-sm-2.col-lg-1.esp
           img(src="@/assets/curso/tema1/vec2.svg")
         .col
           .row.justify-content-between.align-items-center
@@ -77,7 +77,7 @@
     
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
-        .col-2.col-sm-3.col-lg-1
+        .col-6.col-sm-3.col-lg-1
           img.p-2(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
@@ -90,7 +90,7 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-right")
       .row.justify-content-around.align-items-center.px-5
-        .col-2.col-sm-3.col-lg-1
+        .col-6.col-sm-3.col-lg-1
           img.p-2(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
@@ -103,7 +103,7 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
-        .col-2.col-sm-3.col-lg-1
+        .col-6.col-sm-3.col-lg-1
           img.p-2(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
@@ -116,7 +116,7 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-right")
       .row.justify-content-around.align-items-center.px-5
-        .col-2.col-sm-3.col-lg-1
+        .col-6.col-sm-3.col-lg-1
           img.p-2(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
@@ -129,7 +129,7 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
-        .col-2.col-sm-3.col-lg-1
+        .col-6.col-sm-3.col-lg-1
           img.p-2(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
@@ -235,7 +235,7 @@
     p.mb-5(data-aos="slide-left") Las sugerencias y recomendaciones son dos conceptos alineados en el propósito de mejora de un proceso o los procedimientos que lo conforman, la sugerencia nace como la manifestación de una propuesta o idea que puede ayudar a mejorar un proceso, la recomendación surge como satisfacción del servicio o atención recibida, sin embargo, cada uno, tiene una filosofía diferente. Por eso, las organizaciones dan administración a cada uno de los conceptos así:
     
     .row.mb-5(data-aos="flip-up")
-      .col-6.mb-3
+      .col-12.col-md-6.mb-3
         .tarjeta(style='background-color: #FFDE96').bor
           p.fw-bold.bor2 Sugerencias
           img(src='@/assets/curso/tema1/1.jpg', alt='', class='img-fluid')
@@ -243,7 +243,7 @@
             p.mb-3 Las sugerencias tienen origen dual, esto significa que son endógeno y exógeno es decir que se presentan al interior y al exterior de la organización, es una observación sobre la forma de hacer algo, la sugerencia no es una obligación es una invitación a realizar o implementar una acción. 
             p.m-0 Las sugerencias de carácter endógeno son originadas al interior de las organizaciones y obedecen principalmente a mejoras continuas requieren acciones correctivas de quienes ejecutan o definen los procesos.  Las sugerencias permiten determinan que hay falencias o posibilidades de mejora, recibir una sugerencia es informarnos de una situación. 
 
-      .col-6.mb-3
+      .col-12.col-md-6.mb-3
         .tarjeta(style='background-color: #FF8578').bor
           p.fw-bold.bor2 Recomendaciones
           img(src='@/assets/curso/tema1/2.jpg', alt='', class='img-fluid')
@@ -256,7 +256,7 @@
 
     .contenedor.p-5.position-relative.mb-5(style='background-color: #FEF9F0')(data-aos="flip-up")
         .row.justify-content-center.py-1
-          .col-4.izqimg
+          .col-10.col-md-4.izqimg
             figure
               img(src='@/assets/curso/tema1/vec5.svg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0.mt-5

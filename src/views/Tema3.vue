@@ -44,7 +44,7 @@
         .tarjeta-text-up.mb-5(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema3/1.png')
-          .tarjeta-text-up__texto.p-4
+          .tarjeta-text-up__texto.p-md-4.py-2.px-4
             ul.lista-ul--color-white
               li
                 i.fas.fa-star
@@ -55,7 +55,7 @@
       .col.col-12.col-md-6.col-lg-4.mt-5
         .tarjeta-text-up.mb-5.d-flex
           img(src='@/assets/curso/tema3/2.png')
-          .tarjeta-text-up__texto.p-4
+          .tarjeta-text-up__texto.p-md-4.py-2.px-4
             ul.lista-ul--color-white
               li
                 i.fas.fa-users
@@ -66,7 +66,7 @@
       .col.col-12.col-md-6.col-lg-4.mt-5
         .tarjeta-text-up.mb-5.d-flex
           img(src='@/assets/curso/tema3/3.png')
-          .tarjeta-text-up__texto.p-4
+          .tarjeta-text-up__texto.p-md-4.py-2.px-4
             ul.lista-ul--color-white
               li
                 i.fas.fa-heart
@@ -80,7 +80,7 @@
     p.mb-4(data-aos="slide-right") El ciclo del servicio del cliente es todo el proceso conjunto desde el inicio de la solicitud hasta la recepción final en destino con el ingrediente final de satisfacción que permita que se logre una fidelización que, como consecuencia, en próxima necesidad, este cliente, vuelva a solicitar el servicio al mismo proveedor. Cumplido lo anterior, se podrá afirmar que ese proceso logró completar el ciclo del servicio al cliente.
     p.mb-4(data-aos="slide-right") El ciclo de puede de servicio contiene las siguientes etapas:
     
-    .col-11.pos3.mb-5(data-aos="flip-up")
+    .col-12.col-md-11.pos3.mb-5(data-aos="flip-up")
       img(src="@/assets/curso/tema3/vec2.svg")
     
     p.mb-5(data-aos="slide-right") Para que se dé un servicio al cliente óptimo las organizaciones deben trabajar constantemente en aspectos como:

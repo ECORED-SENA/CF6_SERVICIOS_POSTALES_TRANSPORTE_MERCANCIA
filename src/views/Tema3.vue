@@ -39,35 +39,38 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="slide-right")
       h2 3.1 Diferencia entre servicio, atención y experiencia de cliente
 
-    .row.mt-2(data-aos="flip-up")
-      .col.col-12.col-md-6.col-lg-4.mt-4
-        .tarjeta-text-up
-          img(src='@/assets/curso/tema3/1.png', alt='WMS', class='img-fluid')
-          .tarjeta-text-up__texto
-            img.postm3(src='@/assets/curso/tema3/star.svg', alt='WMS', class='img-fluid')
-            h5.postm31 Servicio
-            br
-            br
-            P El concepto de servicio postal está definido en el evento de recaudar el objeto postal, administrarlo, movilizarlo y entregarlo en las condiciones esperadas por el cliente.
+    .row.mb-5.mt-2(data-aos="flip-up")
+      .col.col-12.col-md-6.col-lg-4.mt-5
+        .tarjeta-text-up.mb-5(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/tema3/1.png')
+          .tarjeta-text-up__texto.p-4
+            ul.lista-ul--color-white
+              li
+                i.fas.fa-star
+            h4 Servicio
+            p El concepto de servicio postal está definido en el evento de recaudar el objeto postal, administrarlo, movilizarlo y entregarlo en las condiciones esperadas por el cliente.
             
-      .col.col-12.col-md-6.col-lg-4.mt-4
-        .tarjeta-text-up
-          img(src='@/assets/curso/tema3/2.png', alt='WMS', class='img-fluid')
-          .tarjeta-text-up__texto
-            img.postm3(src='@/assets/curso/tema3/friends.svg', alt='WMS', class='img-fluid')
-            h5.postm31 Atención  
-            br
-            br            
+      
+      .col.col-12.col-md-6.col-lg-4.mt-5
+        .tarjeta-text-up.mb-5.d-flex
+          img(src='@/assets/curso/tema3/2.png')
+          .tarjeta-text-up__texto.p-4
+            ul.lista-ul--color-white
+              li
+                i.fas.fa-users
+            h4 Atención
             p El concepto de atención en servicios postales, es la forma en la cual en cada uno de los pasos del proceso origen-destino es informado, mantenido y monitoreado en su satisfacción cada cliente.
       
-      .col.col-12.col-md-6.col-lg-4.mt-4
-        .tarjeta-text-up
-          img(src='@/assets/curso/tema3/3.png', alt='WMS', class='img-fluid')
-          .tarjeta-text-up__texto
-            img.postm3(src='@/assets/curso/tema3/heart.svg', alt='WMS', class='img-fluid')
-            h5.postm31 Experiencia del Cliente
-            br
-            br              
+
+      .col.col-12.col-md-6.col-lg-4.mt-5
+        .tarjeta-text-up.mb-5.d-flex
+          img(src='@/assets/curso/tema3/3.png')
+          .tarjeta-text-up__texto.p-4
+            ul.lista-ul--color-white
+              li
+                i.fas.fa-heart
+            h4 Experiencia del Cliente
             p El concepto de experiencia del cliente, es la percepción que cada cliente se fabrica en su razón, en cada uno de los pasos del servicio postal (origen-destino), al final, generará una experiencia consolidada que será la de mayor relevancia en medición sin menoscabo de la valía de las opiniones apropiadas por cada una de las etapas del proceso de servicio postal.
     separador
 
@@ -77,7 +80,7 @@
     p.mb-4(data-aos="slide-right") El ciclo del servicio del cliente es todo el proceso conjunto desde el inicio de la solicitud hasta la recepción final en destino con el ingrediente final de satisfacción que permita que se logre una fidelización que, como consecuencia, en próxima necesidad, este cliente, vuelva a solicitar el servicio al mismo proveedor. Cumplido lo anterior, se podrá afirmar que ese proceso logró completar el ciclo del servicio al cliente.
     p.mb-4(data-aos="slide-right") El ciclo de puede de servicio contiene las siguientes etapas:
     
-    .col-9.pos3.mb-5(data-aos="flip-up")
+    .col-11.pos3.mb-5(data-aos="flip-up")
       img(src="@/assets/curso/tema3/vec2.svg")
     
     p.mb-5(data-aos="slide-right") Para que se dé un servicio al cliente óptimo las organizaciones deben trabajar constantemente en aspectos como:

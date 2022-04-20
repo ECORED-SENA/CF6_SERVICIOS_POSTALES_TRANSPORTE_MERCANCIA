@@ -46,43 +46,43 @@
 
     .row.col-11.pos6.mb-5(data-aos="flip-up")
       .bg-img-8(data-aos="fade-left")  
-        .row.justify-content-center.align-items-center.mt-1.py-4
+        .row.justify-content-center.align-items-center.mt-1.py-5
           .col-lg-12      
             SlyderA(data-aos="fade-down") 
               .row.justify-content-center.align-items-center
                 .col-2
                   figure
-                    img(src="@/assets/curso/tema4/vec3.svg" style="width: 90px")
-                .col-8
-                  p.m-4 Los medios de recepción de las PQR las cuales pueden ser verbal, telefónica, escrita o internet. 
+                    img(src="@/assets/curso/tema4/vec3.svg" style="width: 100px")
+                .col-9
+                  p.m-3 Los medios de recepción de las PQR las cuales pueden ser verbal, telefónica, escrita o internet. 
 
               .row.justify-content-center.align-items-center
                 .col-2
                   figure
-                    img(src="@/assets/curso/tema4/vec4.svg" style="width: 90px")
-                .col-8
-                  p.m-4 Definir los documentos soporte que se debe anexar a la solicitud y documentos adicionales como certificaciones de cuentas bancarias, esto para cuando se hace reclamaciones que requieren indemnizaciones. 
+                    img(src="@/assets/curso/tema4/vec4.svg" style="width: 100px")
+                .col-9
+                  p.m-3 Definir los documentos soporte que se debe anexar a la solicitud y documentos adicionales como certificaciones de cuentas bancarias, esto para cuando se hace reclamaciones que requieren indemnizaciones. 
 
               .row.justify-content-center.align-items-center
                 .col-2
                   figure
-                    img(src="@/assets/curso/tema4/vec5.svg" style="width: 90px")
-                .col-8
-                  p.m-4 Horarios de atención
+                    img(src="@/assets/curso/tema4/vec5.svg" style="width: 100px")
+                .col-9
+                  p.m-3 Horarios de atención
 
               .row.justify-content-center.align-items-center
                 .col-2
                   figure
-                    img(src="@/assets/curso/tema4/vec6.svg" style="width: 90px")
-                .col-8
-                  p.m-4 Si el reclamante no es el destinatario ni el remitente se requiere carta de cesión de derechos, la cual para puede ser emitida por cualquiera de las partes, y con copia de documento de identidad
+                    img(src="@/assets/curso/tema4/vec6.svg" style="width: 100px")
+                .col-9
+                  p.m-3 Si el reclamante no es el destinatario ni el remitente se requiere carta de cesión de derechos, la cual para puede ser emitida por cualquiera de las partes, y con copia de documento de identidad
 
               .row.justify-content-center.align-items-center
                 .col-2
                   figure
-                    img(src="@/assets/curso/tema4/vec7.svg" style="width: 90px")
-                .col-8
-                  p.m-4 Las reclamaciones pueden ser realizadas por el remitente, el destinatario o por tercero con autorización. 
+                    img(src="@/assets/curso/tema4/vec7.svg" style="width: 100px")
+                .col-9
+                  p.m-3 Las reclamaciones pueden ser realizadas por el remitente, el destinatario o por tercero con autorización. 
     separador
 
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="slide-right")

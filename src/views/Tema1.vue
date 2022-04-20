@@ -77,8 +77,8 @@
     
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
-        .col-1.col-sm-1.col-lg-1
-          img.p-3(src="@/assets/curso/tema1/vec3.svg")
+        .col-2.col-sm-3.col-lg-1
+          img.p-2(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
@@ -90,8 +90,8 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-right")
       .row.justify-content-around.align-items-center.px-5
-        .col-1.col-sm-1.col-lg-1
-          img.p-3(src="@/assets/curso/tema1/vec3.svg")
+        .col-2.col-sm-3.col-lg-1
+          img.p-2(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
@@ -103,8 +103,8 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
-        .col-1.col-sm-1.col-lg-1
-          img.p-3(src="@/assets/curso/tema1/vec3.svg")
+        .col-2.col-sm-3.col-lg-1
+          img.p-2(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
@@ -116,8 +116,8 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-right")
       .row.justify-content-around.align-items-center.px-5
-        .col-1.col-sm-1.col-lg-1
-          img.p-3(src="@/assets/curso/tema1/vec3.svg")
+        .col-2.col-sm-3.col-lg-1
+          img.p-2(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
@@ -129,8 +129,8 @@
 
     .tarjeta.color-1.p-3.mb-4(data-aos="slide-left")
       .row.justify-content-around.align-items-center.px-5
-        .col-1.col-sm-1.col-lg-1
-          img.p-3(src="@/assets/curso/tema1/vec3.svg")
+        .col-2.col-sm-3.col-lg-1
+          img.p-2(src="@/assets/curso/tema1/vec3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
@@ -239,16 +239,16 @@
         .tarjeta(style='background-color: #FFDE96').bor
           p.fw-bold.bor2 Sugerencias
           img(src='@/assets/curso/tema1/1.jpg', alt='', class='img-fluid')
-          .margtx
-            p Las sugerencias tienen origen dual, esto significa que son endógeno y exógeno es decir que se presentan al interior y al exterior de la organización, es una observación sobre la forma de hacer algo, la sugerencia no es una obligación es una invitación a realizar o implementar una acción. 
-            p Las sugerencias de carácter endógeno son originadas al interior de las organizaciones y obedecen principalmente a mejoras continuas requieren acciones correctivas de quienes ejecutan o definen los procesos.  Las sugerencias permiten determinan que hay falencias o posibilidades de mejora, recibir una sugerencia es informarnos de una situación. 
+          .p-4
+            p.mb-3 Las sugerencias tienen origen dual, esto significa que son endógeno y exógeno es decir que se presentan al interior y al exterior de la organización, es una observación sobre la forma de hacer algo, la sugerencia no es una obligación es una invitación a realizar o implementar una acción. 
+            p.m-0 Las sugerencias de carácter endógeno son originadas al interior de las organizaciones y obedecen principalmente a mejoras continuas requieren acciones correctivas de quienes ejecutan o definen los procesos.  Las sugerencias permiten determinan que hay falencias o posibilidades de mejora, recibir una sugerencia es informarnos de una situación. 
 
       .col-6.mb-3
         .tarjeta(style='background-color: #FF8578').bor
           p.fw-bold.bor2 Recomendaciones
           img(src='@/assets/curso/tema1/2.jpg', alt='', class='img-fluid')
-          .margtx2
-            p Refiere sugerir algo, en el ámbito comercial se puede decir que las recomendaciones enmarcan satisfacción en el servicio, la atención o el buen producto, implica que un cliente sugiere a otro la experiencia en el servicio, la atención o el producto porque su experiencia ha sido satisfactoria. 
+          .p-5
+            p.m-3.mb-4.mt-4 Refiere sugerir algo, en el ámbito comercial se puede decir que las recomendaciones enmarcan satisfacción en el servicio, la atención o el buen producto, implica que un cliente sugiere a otro la experiencia en el servicio, la atención o el producto porque su experiencia ha sido satisfactoria. 
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="slide-up")

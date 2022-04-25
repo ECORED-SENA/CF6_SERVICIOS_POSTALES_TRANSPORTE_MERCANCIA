@@ -10,7 +10,7 @@
           h1 Manejo de PQR
 
       .row.mb-4(data-aos="slide-right")
-        .col.col-12.col-lg-8.pt-5
+        .col.col-12.col-lg-8.pt-1
           p El proceso de manejo de PQR permite a las organizaciones mejorar las estrategias de atención que se da al cliente, la atención de las solicitudes de forma oportuna genera empatía, además permite conocer los intereses de los distintos grupos objetivos, así afianzar los servicios ofrecidos trazando la ruta hacia una atención al cliente eficiente.
           p Dar un enfoque adecuado al proceso optimiza la capacidad de registro de las solicitudes recibidas, mejora la interacción con los clientes y el equipo de trabajo responsable de dar atención a los requerimientos, la implementación del proceso PQR tiene como objeto primordial suplir necesidades de comunicación frente a la atención prestada ya sea en empresas de carácter público o privado. 
           p La automatización organizacional del proceso PQR genera grandes beneficios entre los que podemos contar:
@@ -51,7 +51,7 @@
       h5 Figura 1
       span Beneficio Automatización Proceso PQR
     
-    figure.col-12.col-md-9.mb-5.esp3(data-aos="slide-left")    
+    figure.col-12.col-md-9.mb-3.esp3(data-aos="slide-left")    
       img(src='@/assets/curso/tema1/Vec1.svg', alt='Ubicación de mercancía', class='img-fluid')
     p.mb-4(data-aos="slide-left") En tema de normativa, la constitución política nacional en el artículo 23 reza que toda persona tiene derecho a interponer o presentar peticiones de forma respetuosa ante las autoridades, estas peticiones pueden ser de interés general o entidades públicas o privadas, por la ley 755 de 2015 reguló en Colombia el derecho fundamental de las personas a interponer peticiones 
     

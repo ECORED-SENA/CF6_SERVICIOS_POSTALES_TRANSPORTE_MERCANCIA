@@ -33,14 +33,14 @@
       .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="72%" numero="")
         p.m-5  <b>Ser creativo:</b>  la prestación de un servicio con atención permite identificar necesidades del cliente, y así diseñar soluciones rápidas y precisas a las mismas, hacer sentir al cliente que sus necesidades son prioridad en atención. 
          
-    p.mb-5(data-aos="slide-right") La búsqueda de relaciones comerciales a largo plazo, el trabajar en experiencias que generen lealtad y sentido de pertenencia, ir más allá de la satisfacción superando expectativas, disponiendo canales comunicación efectivos generando confiabilidad, credibilidad, imagen de calidad, eficacia, eficiencia, para brindar una óptima atención, fidelizar clientes, obtener más clientes y así una sostenibilidad en el mercado.
+    p.mb-2(data-aos="slide-right") La búsqueda de relaciones comerciales a largo plazo, el trabajar en experiencias que generen lealtad y sentido de pertenencia, ir más allá de la satisfacción superando expectativas, disponiendo canales comunicación efectivos generando confiabilidad, credibilidad, imagen de calidad, eficacia, eficiencia, para brindar una óptima atención, fidelizar clientes, obtener más clientes y así una sostenibilidad en el mercado.
     separador
     
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="slide-right")
       h2 3.1 Diferencia entre servicio, atención y experiencia de cliente
 
-    .row.mb-0.mt-2(data-aos="flip-up")
-      .col.col-12.col-md-6.col-lg-4.mt-5
+    .row(data-aos="flip-up")
+      .col.col-12.col-md-6.col-lg-4.mt-4
         .tarjeta-text-up.mb-5(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema3/1.png')
@@ -52,7 +52,7 @@
             p El concepto de servicio postal está definido en el evento de recaudar el objeto postal, administrarlo, movilizarlo y entregarlo en las condiciones esperadas por el cliente.
             
       
-      .col.col-12.col-md-6.col-lg-4.mt-5
+      .col.col-12.col-md-6.col-lg-4.mt-4
         .tarjeta-text-up.mb-5.d-flex
           img(src='@/assets/curso/tema3/2.png')
           .tarjeta-text-up__texto.p-x-5.p-3
@@ -63,7 +63,7 @@
             p El concepto de atención en servicios postales, es la forma en la cual en cada uno de los pasos del proceso origen-destino es informado, mantenido y monitoreado en su satisfacción cada cliente.
       
 
-      .col.col-12.col-md-6.col-lg-4.mt-5
+      .col.col-12.col-md-6.col-lg-4.mt-4
         .tarjeta-text-up.mb-5.d-flex
           img(src='@/assets/curso/tema3/3.png')
           .tarjeta-text-up__texto.p-x-5.p-3
@@ -83,9 +83,9 @@
     .col-12.col-md-11.pos3.mb-5(data-aos="flip-up")
       img(src="@/assets/curso/tema3/vec2.svg")
     
-    p.mb-5(data-aos="slide-right") Para que se dé un servicio al cliente óptimo las organizaciones deben trabajar constantemente en aspectos como:
+    p.mb-3(data-aos="slide-right") Para que se dé un servicio al cliente óptimo las organizaciones deben trabajar constantemente en aspectos como:
     
-    .col-12.pos3.mb-4(data-aos="flip-up")
+    .col-12.pos3.mb-2(data-aos="flip-up")
       img(src="@/assets/curso/tema3/vec3.svg")
 
 

@@ -38,9 +38,8 @@
     
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="slide-right")
       h2 3.1 Diferencia entre servicio, atención y experiencia de cliente
-      
 
-    .row.mb-2.mt-2(data-aos="flip-up")
+    .row.mb-0.mt-2(data-aos="flip-up")
       .col.col-12.col-md-6.col-lg-4.mt-5
         .tarjeta-text-up.mb-5(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")

@@ -147,9 +147,6 @@
     figure.mb-5(data-aos="flip-up")
       img(src='@/assets/curso/tema1/vec4.svg', alt='Ubicación de mercancía', class='img-fluid').col-10.pos2
     
-    figure.mb-5(data-aos="flip-up")
-      .video
-        iframe(width="942" height="530" src="https://www.youtube.com/embed/PSiBtkl75Hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos="slide-up") Hablando de PQR es momento de que veamos las diferencias entre peticiones, quejas y reclamos:
 
     TabsB.color-acento-contenido.mb-5(data-aos="flip-up")
@@ -198,8 +195,8 @@
      
     p.mb-5(data-aos="slide-up") Los siguientes recursos hacen referencia a las peticiones, quejas o reclamos, después de observarlos, analicemos las actitudes y acciones de los clientes frente a las situaciones
     separador
-
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="slide-up")
+    #t_1_2
+    .titulo-segundo.color-acento-contenido(data-aos="slide-up")
       h2 1.2 Manejo de sugerencias y recomendaciones
 
     .row.mb-5(data-aos="slide-up")
@@ -250,8 +247,8 @@
           .p-5
             p.m-4.mb-5.mt-4 Refiere sugerir algo, en el ámbito comercial se puede decir que las recomendaciones enmarcan satisfacción en el servicio, la atención o el buen producto, implica que un cliente sugiere a otro la experiencia en el servicio, la atención o el producto porque su experiencia ha sido satisfactoria. 
     separador
-
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="slide-up")
+    #t_1_3
+    .titulo-segundo.color-acento-contenido(data-aos="slide-up")
       h2 1.3 Valoración de las felicitaciones
 
     .contenedor.p-5.position-relative.mb-5(style='background-color: #FEF9F0')(data-aos="flip-up")

@@ -51,7 +51,7 @@
       h5 Figura 1
       span Beneficio Automatización Proceso PQR
     
-    figure.col-12.mb-5(data-aos="slide-left")    
+    figure.col-12.col-md-9.mb-5.esp3(data-aos="slide-left")    
       img(src='@/assets/curso/tema1/Vec1.svg', alt='Ubicación de mercancía', class='img-fluid')
     p.mb-4(data-aos="slide-left") En tema de normativa, la constitución política nacional en el artículo 23 reza que toda persona tiene derecho a interponer o presentar peticiones de forma respetuosa ante las autoridades, estas peticiones pueden ser de interés general o entidades públicas o privadas, por la ley 755 de 2015 reguló en Colombia el derecho fundamental de las personas a interponer peticiones 
     
@@ -69,9 +69,9 @@
                 i.fas.fa-link
     separador
 
-
-    #t_1_1.titulo-segundo.color-acento-contenidoc
+    #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Atención de peticiones, quejas y reclamos
+    
     P.mb-4(data-aos="slide-right") En la atención de las solicitudes y/o comunicados de peticiones, quejas y reclamos, tiene para cada una de ellas, un tratamiento específico, aunque usa un mismo canal administrativo, tiene tratamiento y seguimiento particular, por esta razón, el primer paso del proceso de PQR es el formato de recepción, el cual, debe de manera clara y definida determinar en cuál de las tres tipologías ha de clasificarse la inquietud del cliente respecto del servicio prestado (Universidad Manuela Beltrán, s.f.)  
     P.mb-4(data-aos="slide-right") En Colombia se disponen de normatividad para las peticiones, quejas, reclamos, solicitudes, denuncias, esta normativa, la pueden consultar en los siguientes anexos:
     
@@ -240,7 +240,7 @@
           p.fw-bold.bor2 Sugerencias
           img(src='@/assets/curso/tema1/1.jpg', alt='', class='img-fluid')
           .p-4
-            p.mb-3 Las sugerencias tienen origen dual, esto significa que son endógeno y exógeno es decir que se presentan al interior y al exterior de la organización, es una observación sobre la forma de hacer algo, la sugerencia no es una obligación es una invitación a realizar o implementar una acción. 
+            p.mb-4 Las sugerencias tienen origen dual, esto significa que son endógeno y exógeno es decir que se presentan al interior y al exterior de la organización, es una observación sobre la forma de hacer algo, la sugerencia no es una obligación es una invitación a realizar o implementar una acción. 
             p.m-0 Las sugerencias de carácter endógeno son originadas al interior de las organizaciones y obedecen principalmente a mejoras continuas requieren acciones correctivas de quienes ejecutan o definen los procesos.  Las sugerencias permiten determinan que hay falencias o posibilidades de mejora, recibir una sugerencia es informarnos de una situación. 
 
       .col-12.col-md-6.mb-3
@@ -248,7 +248,7 @@
           p.fw-bold.bor2 Recomendaciones
           img(src='@/assets/curso/tema1/2.jpg', alt='', class='img-fluid')
           .p-5
-            p.m-3.mb-4.mt-4 Refiere sugerir algo, en el ámbito comercial se puede decir que las recomendaciones enmarcan satisfacción en el servicio, la atención o el buen producto, implica que un cliente sugiere a otro la experiencia en el servicio, la atención o el producto porque su experiencia ha sido satisfactoria. 
+            p.m-4.mb-5.mt-4 Refiere sugerir algo, en el ámbito comercial se puede decir que las recomendaciones enmarcan satisfacción en el servicio, la atención o el buen producto, implica que un cliente sugiere a otro la experiencia en el servicio, la atención o el producto porque su experiencia ha sido satisfactoria. 
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="slide-up")

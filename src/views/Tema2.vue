@@ -12,10 +12,10 @@
     p(data-aos="slide-right") Atender un cliente, sin distinción de la organización, tiene como objetivo primario orientarlo en la utilización del servicio, adquisición del bien o transacción requerida, para el caso de servicios postales, atención al cliente está principalmente enfocada a la movilización de elementos con origen y/o destino. Es cliente quién envía y es cliente quién recibe. 
     p.mb-5(data-aos="slide-right") Los factores que intervienen en la atención al cliente con calidad son:
   
-    .col-md-10.col-12.esp3.mb-5(data-aos="flip-up")
+    .col-md-10.col-12.esp3.mb-2(data-aos="flip-up")
       img(src="@/assets/curso/tema2/vec1.svg")
    
-    .row.mb-5.d-flex.align-items-center(data-aos="flip-up")
+    .row.mb-4.d-flex.align-items-center(data-aos="flip-up")
       .col.col-12.col-lg-8.pt-5.pos2
         .bloque-texto-d.color-primario.p-4
           .bloque-texto-d__texto.mb-2
@@ -31,9 +31,9 @@
 
     P.mb-4(data-aos="flip-right") Los servicios postales en mensajería aérea, sin guardar mayor diferencia a la mensajería terrestre, desde la mirada de la atención del cliente están determinados de la siguiente manera:
     
-    SlyderD.mb-5(:datos="datosSlyder")(data-aos="flip-up")
+    SlyderD.mb-2(:datos="datosSlyder")(data-aos="flip-up")
 
-    .row.mb-5(data-aos="flip-right")
+    .row.mb-2(data-aos="flip-right")
       .col.col-12.col-lg-8.pt-5
         p En cada una de las etapas, el usuario debe obtener por parte del servicio de Aeromensajería orientación del estado del trámite y el correcto procesamiento de este, la esencia del servicio al cliente es la información y esta se encuentra soportada en los documentos generados, los cuales tienen por objeto regular o estandarizar procesos en la prestación de los servicios.
         p En la actualidad las empresas usan como principal herramienta la tecnología de la información y hoy día por normativa, las empresas de servicios postales y transporte de mercancías deben disponer de herramientas ofimáticas que les permita hacer seguimiento a los envíos postales, una de las principales herramientas son las APP, aplicaciones que permiten facilitar la resolución de tareas, actividades o gestiones del día a día, estas herramientas el usuario las instala en el equipo móvil o tableta y a través de ellas se puede hacer  el seguimiento al correo o paquete, ingresando código de despacho. 

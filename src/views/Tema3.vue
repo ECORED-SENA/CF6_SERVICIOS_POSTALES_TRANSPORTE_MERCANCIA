@@ -11,7 +11,7 @@
 
     p.mb-5(data-aos="slide-right") En la atención al cliente intervienen muchos factores que pueden afectar de forma positiva a la organización, dichos factores intervienen directamente con la atención al cliente, entre dichos factores se enumeran:
 
-    ImagenInfografica.color-primario.mb-5(data-aos="flip-up")
+    ImagenInfografica.color-primario.opa(style='background-color: #ffffff').mb-5(data-aos="flip-up")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema3/vec1.svg', alt='Texto que describa la imagen')
@@ -38,13 +38,14 @@
     
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="slide-right")
       h2 3.1 Diferencia entre servicio, atención y experiencia de cliente
+      
 
-    .row.mb-5.mt-2(data-aos="flip-up")
+    .row.mb-2.mt-2(data-aos="flip-up")
       .col.col-12.col-md-6.col-lg-4.mt-5
         .tarjeta-text-up.mb-5(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema3/1.png')
-          .tarjeta-text-up__texto.p-md-4.py-2.px-4
+          .tarjeta-text-up__texto.p-x-5.p-3
             ul.lista-ul--color-white
               li
                 i.fas.fa-star
@@ -55,7 +56,7 @@
       .col.col-12.col-md-6.col-lg-4.mt-5
         .tarjeta-text-up.mb-5.d-flex
           img(src='@/assets/curso/tema3/2.png')
-          .tarjeta-text-up__texto.p-md-4.py-2.px-4
+          .tarjeta-text-up__texto.p-x-5.p-3
             ul.lista-ul--color-white
               li
                 i.fas.fa-users
@@ -66,7 +67,7 @@
       .col.col-12.col-md-6.col-lg-4.mt-5
         .tarjeta-text-up.mb-5.d-flex
           img(src='@/assets/curso/tema3/3.png')
-          .tarjeta-text-up__texto.p-md-4.py-2.px-4
+          .tarjeta-text-up__texto.p-x-5.p-3
             ul.lista-ul--color-white
               li
                 i.fas.fa-heart

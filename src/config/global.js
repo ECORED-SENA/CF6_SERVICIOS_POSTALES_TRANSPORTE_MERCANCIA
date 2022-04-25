@@ -153,103 +153,139 @@ export default {
   referencias: [
     {
       referencia:
-        'Arrieta Posada, J. (Junio de 2011). <em>SCIELO</em>. Obtenido de Aspectos a considerar para una buena gestión en los almacenes de las empresas (CEDIS). <em>Journal of Economics, Finance and Administrative Science, 16(30).</em>',
+        'Arellano Días, H.O. (2017). La calidad en el Servicio como Ventaja Competitiva. Dialnet, 3,11. Obtenido de',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6093282',
+    },
+    {
+      referencia:
+        'García, A. (2016). Cultura del Servicio en la Optimización del Servicio al Cliente. Telos. Obtenido de',
+      link: 'https://www.redalyc.org/pdf/993/99346931003.pdf',
+    },
+    {
+      referencia:
+        'Programa Nacional de Servicio al Ciudadano. (2016). Criterios Normativos para peticiones, quejas, reclamos, solicitudes y denuncias.  Obtenido de',
       link:
-        'http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S2077-18862011000100007',
+        'https://colaboracion.dnp.gov.co/CDT/Programa%20Nacional%20del%20Servicio%20al%20Ciudadano/CRITERIOS%20NORMATIVOS%20PARA%20PQRSD%20V2.pdf',
     },
     {
       referencia:
-        'Campo, V., A., Hervás, E., A., y Revilla, R., M. (2013). <em>Operaciones de almacenaje.</em> McGraw Hill.',
-    },
-    {
-      referencia:
-        'Correa Espinal, A., & Gómez Montoya , R. (Septiembre de 2009). <em>Tecnologías de la información y comunicación en la gestión de almacenes</em>.',
-      link: 'http://www.scielo.org.co/pdf/eg/v26n117/v26n117a09.pdf',
-    },
-    {
-      referencia:
-        'Escudero, S., J. (2019). <em>Logística de almacenamiento</em>. Paraninfo.',
-    },
-    {
-      referencia:
-        'Flamarique, S. (2018). <em>Gestión de existencias en el almacén</em>. Marge Books.',
+        'Universidad Manuela Beltrán. (s.f).  Servicio al Cliente. Obtenido de',
       link:
-        'https://books.google.com.co/books?id=CDd8DwAAQBAJ&printsec=frontcover&dq=gestion+de+existencias+en+el+almacen&hl=es&sa=X&redir_esc=y#v=onepage&q=gestion%20de%20existencias%20en%20el%20almacen&f=false',
-    },
-    {
-      referencia:
-        'Gómez, A., Iglesias, M., De la Fuente, D., y Menéndez , M. (2008). <em>Estado del arte en políticas de ubicación de productos en almacén</em>. II International Conference on Industrial Engineering and Industrial Management XII Congreso de Ingeniería de Organización September 3-5, 2008, Burgos, Spain.',
-      link:
-        'http://adingor.es/congresos/web/uploads/cio/cio2008/LOGISTIC//1095-1102.pdf',
-    },
-    {
-      referencia:
-        'Mauleón, M. (2003). <em>Sistemas de alamacenaje y picking.</em> Ediciones Díaz de Santos.',
-    },
-    {
-      referencia:
-        'Pérez, H., M. (2014). <em>Almacenamiento de materiales.</em> Marge Books.',
-      link:
-        'https://books.google.es/books?hl=es&lr=&id=fnPDDQAAQBAJ&oi=fnd&pg=PA11&dq=almacenamiento+&ots=lFsLWzq0fg&sig=HSAdBBne2sGEzlJRG55I-yoLvSA#v=onepage&q&f=false',
-    },
-    {
-      referencia:
-        'Rodríguez, R., R. (2015). Guía de seguridad en procesos de almacenamiento y manejo de cargas. Fremap.',
-      link:
-        'https://www.udc.es/arquivos/sites/udc/prl/procedementos/Guiaxseg.xalmacenam.xyxmanejoxcargas.pdf',
+        'http://virtualnet2.umb.edu.co/virtualnet/archivos/open.php/1037/Contenido_Modulo_II_Servicio_al_cliente.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Almacenamiento',
-      significado:
-        'utilización óptima de un espacio asignado para colocar una determinada cantidad de elementos o referencias.',
+      termino: 'Anónimo',
+      significado: 'Emisión de solicitudes sin autor explícito o identificado.',
     },
     {
-      termino: 'Granel',
+      termino: 'Atención',
       significado:
-        'mercancía transportada sin envase o embalaje, generalmente referido a minerales, semillas, abonos, líquidos, cementos, etc.',
+        'Acción que ejecutan las entidades a través de los canales dispuestos para recibir solicitudes de información, trámites y servicios.',
     },
     {
-      termino: 'Inventario',
+      termino: 'Atención electrónica',
       significado:
-        'acumulación de cualquier producto o artículo usado en la organización.',
+        'Servicio prestado a través de la comunicación recibida por correo electrónico.',
     },
     {
-      termino: '<em>Layout</em>',
-      significado: 'disposición en planta de las diferentes zonas de almacén.',
+      termino: 'Calidad',
+      significado:
+        'Criterio con cual se mide el grado de satisfacción de una persona por un servicio o bien prestado.',
     },
     {
-      termino: 'Logística',
+      termino: 'Ciclo del Servicio',
       significado:
-        'proceso de planear, implementar y controlar efectiva y eficientemente el flujo y almacenamiento de bienes, servicios e información relacionada del punto de origen al punto de consumo con el propósito de cumplir los requisitos del cliente.',
+        'Cadena formada por todos los momentos de verdad que un cliente ha vivido.',
     },
     {
-      termino: '<em>Pallet</em>',
+      termino: 'Digital',
       significado:
-        'plataforma reutilizable usada en la estiba de carga para facilitar el aprovechamiento del espacio de almacenamiento y de bodega de transporte, y las operaciones de manipulación.',
+        'Conversión de un documento en una representación de imagen.',
     },
     {
-      termino: '<em>Stock</em>',
+      termino: 'Digitalización',
       significado:
-        'producto almacenado listo para ser vendido, distribuido o usado.',
+        'Hacer uso de herramienta ofimática para escanear un documento y conservarla en medio digital.',
     },
     {
-      termino: 'Unidad de carga',
+      termino: 'Encomienda',
       significado:
-        'presentación de las mercaderías objeto de transporte, de manera que puedan ser manipuladas por medios mecánicos.',
+        'Recepción de objetos postales no urgentes o mercancías de libre circulación en el territorio nacional o internacional.',
+    },
+    {
+      termino: 'Estrategia',
+      significado:
+        'Técnica organizacional para desarrollar actividades en pro de mejorar un proceso.',
+    },
+    {
+      termino: 'Felicitación',
+      significado: 'Expresión de agradecimiento o satisfacción',
+    },
+    {
+      termino: 'Gestión',
+      significado: 'Acciones encaminadas a resolver una situación.',
+    },
+    {
+      termino: 'Guía',
+      significado:
+        'Documento soporte de envío que contiene los datos del remitente y el destinatario.',
+    },
+    {
+      termino: 'Mensajería Express',
+      significado:
+        'Servicios postales de connotación urgente que requiere aplicación de características especiales para la recepción.',
+    },
+    {
+      termino: 'Misión',
+      significado:
+        'Objetivos generales definidos para lograr crecimiento de una organización.',
+    },
+    {
+      termino: 'Momento de Verdad',
+      significado:
+        'Puntos más importantes de unión entre el cliente y la empresa.',
+    },
+    {
+      termino: 'Notificación Judicial',
+      significado:
+        'Acto procesal a través del cual se informa a las partes vinculadas a un proceso las decisiones tomadas.',
+    },
+    {
+      termino: 'Peticionario',
+      significado: 'Persona de jurídica o natural que requiere un servicio.',
+    },
+    {
+      termino: 'PQRS',
+      significado: 'Abreviatura de petición, queja, reclamo o sugerencia.',
+    },
+    {
+      termino: 'Rastreo',
+      significado:
+        'Seguimiento al envío desde su origen hasta el destino y entrega.',
+    },
+    {
+      termino: 'Servicio',
+      significado:
+        'Conjunto de acciones previamente establecidas dirigidos a brindar satisfacción a una persona.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado: 'Hacer seguimiento a un proceso',
     },
   ],
   complementario: [
     {
-      texto: 'Factores de Atención al Cliente',
+      texto:
+        'Hernández, W. (2017) Factores que intervienen en la atención al cliente.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=TF569oAM5yc',
     },
     {
       texto: 'Procedimiento de la PQR aplicable a los servicios postales',
       tipo: 'PDF',
-      link: 'http://www.scielo.org.co/pdf/eg/v26n117/v26n117a09.pdf',
+      descarga: ['/downloads/Tramite_PQR.pdf'],
     },
   ],
   creditos: {

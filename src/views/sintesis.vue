@@ -7,10 +7,17 @@
       p El mapa mental que se registra a continuación refuerza los conocimientos en el tema de manejo de peticiones, quejas y reclamos.
     br
     br
-    .row.justify-content-center
-      .col-lg-10.mb-5
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
         figure
           img(src="@/assets/curso/sintesis.svg", alt="alt")
+
+    .row.col-6.col-md-2.mb-4.esp3
+      a.anexo(style='background-color:#E9F4FD')(:href="obtenerLink('/downloads/síntesis.pdf')" target="_blank")
+        .anexo__icono
+          img(src="@/assets/template/icono-pdf.svg")
+        .anexo__texto
+          p <b>Anexo PDF.</b>  
 
 </template>
 

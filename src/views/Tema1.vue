@@ -9,7 +9,7 @@
             span 1
           h1 Manejo de PQR
 
-      .row.mb-5(data-aos="slide-right")
+      .row.mb-4(data-aos="slide-right")
         .col.col-12.col-lg-8.pt-5
           p El proceso de manejo de PQR permite a las organizaciones mejorar las estrategias de atención que se da al cliente, la atención de las solicitudes de forma oportuna genera empatía, además permite conocer los intereses de los distintos grupos objetivos, así afianzar los servicios ofrecidos trazando la ruta hacia una atención al cliente eficiente.
           p Dar un enfoque adecuado al proceso optimiza la capacidad de registro de las solicitudes recibidas, mejora la interacción con los clientes y el equipo de trabajo responsable de dar atención a los requerimientos, la implementación del proceso PQR tiene como objeto primordial suplir necesidades de comunicación frente a la atención prestada ya sea en empresas de carácter público o privado. 

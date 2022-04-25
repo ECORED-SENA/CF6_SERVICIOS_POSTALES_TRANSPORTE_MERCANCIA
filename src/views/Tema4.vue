@@ -25,7 +25,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-4.mb-sm-1
-              p.text-small.mb-0 Para profundizar los temas mencionados visualice el siguiente video: <b>Conozca todo sobre las PQRS</b>
+              p.text-small.mb-0 Para profundizar los temas mencionados visualice el siguiente video: <b>Estrategias de Servicio al Cliente</b>
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=W2rs9xB9RFQ" target="_blank")
                 span Ver más 

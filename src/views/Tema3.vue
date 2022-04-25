@@ -39,38 +39,38 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="slide-right")
       h2 3.1 Diferencia entre servicio, atención y experiencia de cliente
 
-    .row(data-aos="flip-up")
-      .col.col-12.col-md-6.col-lg-4.mt-4
+    .row.mb-0.mt-2(data-aos="flip-up")
+      .col.col-12.col-md-6.col-lg-4.mt-5
         .tarjeta-text-up.mb-5(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema3/1.png')
-          .tarjeta-text-up__texto.p-x-5.p-3
+          .tarjeta-text-up__texto.p-x-5
             ul.lista-ul--color-white
               li
                 i.fas.fa-star
-            h4 Servicio
+            h4.mb-4 Servicio
             p El concepto de servicio postal está definido en el evento de recaudar el objeto postal, administrarlo, movilizarlo y entregarlo en las condiciones esperadas por el cliente.
             
       
-      .col.col-12.col-md-6.col-lg-4.mt-4
+      .col.col-12.col-md-6.col-lg-4.mt-5
         .tarjeta-text-up.mb-5.d-flex
           img(src='@/assets/curso/tema3/2.png')
-          .tarjeta-text-up__texto.p-x-5.p-3
+          .tarjeta-text-up__texto.p-x-5
             ul.lista-ul--color-white
               li
                 i.fas.fa-users
-            h4 Atención
+            h4.mb-4 Atención
             p El concepto de atención en servicios postales, es la forma en la cual en cada uno de los pasos del proceso origen-destino es informado, mantenido y monitoreado en su satisfacción cada cliente.
       
 
-      .col.col-12.col-md-6.col-lg-4.mt-4
+      .col.col-12.col-md-6.col-lg-4.mt-5
         .tarjeta-text-up.mb-5.d-flex
           img(src='@/assets/curso/tema3/3.png')
-          .tarjeta-text-up__texto.p-x-5.p-3
+          .tarjeta-text-up__texto.p-x-5
             ul.lista-ul--color-white
               li
                 i.fas.fa-heart
-            h4 Experiencia del Cliente
+            h4.mb-4 Experiencia del Cliente
             p El concepto de experiencia del cliente, es la percepción que cada cliente se fabrica en su razón, en cada uno de los pasos del servicio postal (origen-destino), al final, generará una experiencia consolidada que será la de mayor relevancia en medición sin menoscabo de la valía de las opiniones apropiadas por cada una de las etapas del proceso de servicio postal.
     separador
 

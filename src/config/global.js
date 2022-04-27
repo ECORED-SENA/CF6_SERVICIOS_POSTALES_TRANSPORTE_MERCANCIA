@@ -167,12 +167,6 @@ export default {
       link:
         'https://colaboracion.dnp.gov.co/CDT/Programa%20Nacional%20del%20Servicio%20al%20Ciudadano/CRITERIOS%20NORMATIVOS%20PARA%20PQRSD%20V2.pdf',
     },
-    {
-      referencia:
-        'Universidad Manuela Beltrán. (s.f).  Servicio al Cliente. Obtenido de',
-      link:
-        'http://virtualnet2.umb.edu.co/virtualnet/archivos/open.php/1037/Contenido_Modulo_II_Servicio_al_cliente.pdf',
-    },
   ],
   glosario: [
     {

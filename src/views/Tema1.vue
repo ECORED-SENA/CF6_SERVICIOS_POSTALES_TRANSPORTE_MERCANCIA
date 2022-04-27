@@ -7,7 +7,7 @@
         .titulo-principal.color-acento-contenido
           .titulo-principal__numero
             span 1
-          h1 Manejo de PQR
+          h1 Manejo de PQRS
 
       .row.mb-4(data-aos="slide-right")
         .col.col-12.col-lg-8.pt-1

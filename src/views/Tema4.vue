@@ -88,12 +88,12 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="slide-right")
       h2 4.2 Ciclo del sistema de PQRS
     
-    p.mb-4(data-aos="slide-right") Todos los procesos conllevan un ciclo y las PQR también, el ciclo de vida de un PQR se inicia con la recepción y radicación de las solicitudes a través de todos los canales, se continúa con el proceso de gestión, mediante la asignación al colaborador o funcionario responsable,  se procede con la gestión y trámite, es decir desarrollar el proceso de atención y seguimiento, posterior se emite la respuesta o resolución y se envía al usuario, esta respuesta puede ser en físico, es decir documento impreso con soporte de recibido o por medio de correo electrónico, posterior se realiza seguimiento a la recepción de la respuesta y se evalúa el grado de satisfacción de la misma, se procede con el cierre, se envía para archivo y se generan los reportes para que hagan parte de los indicadores y alimenten los planes y acciones de mejora. 
-    p.mb-5(data-aos="slide-left") Los procesos de consolidación de información requieren de datos constantes, confiables y medibles, para ello, es necesario la verificación de forma permanente y en ciclo de vida y seguimiento al sistema de PQR, permite la depuración de esta, brinda garantía de certeza de las tendencias detectadas en cada análisis practicado o en cada PQR recibida, gestionada y solucionada de forma positiva tanto para el cliente como para la organización. 
+    p.mb-4(data-aos="slide-right") Todos los procesos conllevan un ciclo y las PQRS también, el ciclo de vida de un PQRS se inicia con la recepción y radicación de las solicitudes a través de todos los canales, se continúa con el proceso de gestión, mediante la asignación al colaborador o funcionario responsable,  se procede con la gestión y trámite, es decir desarrollar el proceso de atención y seguimiento, posterior se emite la respuesta o resolución y se envía al usuario, esta respuesta puede ser en físico, es decir documento impreso con soporte de recibido o por medio de correo electrónico, posterior se realiza seguimiento a la recepción de la respuesta y se evalúa el grado de satisfacción de la misma, se procede con el cierre, se envía para archivo y se generan los reportes para que hagan parte de los indicadores y alimenten los planes y acciones de mejora. 
+    p.mb-5(data-aos="slide-left") Los procesos de consolidación de información requieren de datos constantes, confiables y medibles, para ello, es necesario la verificación de forma permanente y en ciclo de vida y seguimiento al sistema de PQRS, permite la depuración de esta, brinda garantía de certeza de las tendencias detectadas en cada análisis practicado o en cada PQRS recibida, gestionada y solucionada de forma positiva tanto para el cliente como para la organización. 
     
     .titulo-sexto.color-acento-contenido(data-aos="flip-up")
       h5 Figura 4
-      span <i>Ciclo de vida PQR</i>
+      span <i>Ciclo de vida PQRS</i>
 
     figure.mb-5(data-aos="flip-up")
       img.col-12.col-md-7.pos4(src="@/assets/curso/tema4/vec8.svg")

@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Atención PQR',
+    componenteFormativo: 'Atención PQRS',
     descripcionCurso:
       'Peticiones, Quejas y Reclamos, orienta la investigación prospectiva de la sensibilidad de los clientes respecto de los servicios prestados mediante procedimientos y normas establecidos. PQR establece los parámetros de mejora continua del proceso, definiendo cuales son las áreas de oportunidad de mejora de los procesos, su logística, registro y seguimiento. Estos lineamientos estipulan el paso a paso del proceso en PQR.',
     // imagenBannerPrincipal: require('@/assets/curso/banner/imagen-banner.svg'),
@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Manejo de PQR',
+        titulo: 'Manejo de PQRS',
         desarrolloContenidos: true,
         subMenu: [
           {

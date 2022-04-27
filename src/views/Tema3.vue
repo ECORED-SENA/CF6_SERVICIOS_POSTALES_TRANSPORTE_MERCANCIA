@@ -28,7 +28,7 @@
         p.m-5  <b>Honestidad:</b>  la transparencia es un factor muy valorado por el cliente, cumplir con las expectativas de servicio con oportunidad y rectitud genera confianza y satisfacción.
            
       .tarjeta.bg-amarillo-claro.p-3(x="75.4%" y="26.4%" numero="")
-        p.m-5  <b>Escuchar:</b>  es de gran importancia estar atentos a los clientes, escuchar las recomendaciones, o sugerencias que nacen del proceso de atención marcan un camino de mejora cada día no solo para la atención de ese cliente, sino para lograr más clientes, mayo participación del mercado.
+        p.m-5  <b>Escuchar:</b>  es de gran importancia estar atentos a los clientes, escuchar las recomendaciones, o sugerencias que nacen del proceso de atención marcan un camino de mejora cada día no solo para la atención de ese cliente, sino para lograr más clientes, mayor participación del mercado.
           
       .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="72%" numero="")
         p.m-5  <b>Ser creativo:</b>  la prestación de un servicio con atención permite identificar necesidades del cliente, y así diseñar soluciones rápidas y precisas a las mismas, hacer sentir al cliente que sus necesidades son prioridad en atención. 
@@ -78,7 +78,7 @@
       h2 3.2 Ciclo de servicio al cliente
 
     p.mb-4(data-aos="slide-right") El ciclo del servicio del cliente es todo el proceso conjunto desde el inicio de la solicitud hasta la recepción final en destino con el ingrediente final de satisfacción que permita que se logre una fidelización que, como consecuencia, en próxima necesidad, este cliente, vuelva a solicitar el servicio al mismo proveedor. Cumplido lo anterior, se podrá afirmar que ese proceso logró completar el ciclo del servicio al cliente.
-    p.mb-4(data-aos="slide-right") El ciclo de puede de servicio contiene las siguientes etapas:
+    p.mb-4(data-aos="slide-right") El ciclo de servicio contiene las siguientes etapas:
     
     .col-12.col-md-11.pos3.mb-5(data-aos="flip-up")
       img(src="@/assets/curso/tema3/vec2.svg")

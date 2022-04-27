@@ -207,7 +207,7 @@
           img(src='@/assets/curso/tema1/img02.png', alt='Ubicación de mercancía', class='img-fluid')
       .col.col-12.col-lg-8.pt-5
         p Las PQR comprende unos paso a paso, dan inicio cuando el cliente, consumidor o usuario presenta la solicitud ante la entidad, el proveedor u organización, de esta manera se da apertura a la posibilidad de rectificar o subsanar las fallas que se presentaron en el servicio prestado y se construye el mecanismo de respuesta satisfactorio en pro del mejoramiento de la operatividad de la organización y la satisfacción del cliente.
-        p El asertividad en el manejo de las sugerencias y los reclamos hacen la diferencia entre conservar un cliente o perderlo, en el proceso de quejas y reclamaciones se debe dar prioridad las situaciones que afectan la fidelización de clientes, ante todo en el aspecto tiempo de atención.  
+        p La asertividad en el manejo de las sugerencias y los reclamos hacen la diferencia entre conservar un cliente o perderlo, en el proceso de quejas y reclamaciones se debe dar prioridad a las situaciones que afectan la fidelización de clientes, ante todo en el aspecto tiempo de atención.  
 
     p.mb-5(data-aos="slide-right") Dentro de los procesos de PQR se recomienda acciones para realizar este proceso con asertividad, estos son:
     

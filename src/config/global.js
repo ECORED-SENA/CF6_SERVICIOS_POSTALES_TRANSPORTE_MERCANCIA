@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Manejo de PQRS',
+        titulo: 'Manejo de PQR',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -254,7 +254,7 @@ export default {
     },
     {
       termino: 'Peticionario',
-      significado: 'Persona de jurídica o natural que requiere un servicio.',
+      significado: 'Persona jurídica o natural que requiere un servicio.',
     },
     {
       termino: 'PQRS',

@@ -13,11 +13,11 @@
           img(src="@/assets/curso/sintesis.svg", alt="alt")
 
     .row.col-6.col-md-2.mb-4.esp3
-      a.anexo(style='background-color:#E9F4FD')(:href="obtenerLink('/downloads/síntesis.pdf')" target="_blank")
+      a.anexo(style='background-color:#E9F4FD')(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-pdf.svg")
         .anexo__texto
-          p <b>Anexo PDF.</b>  
+          p <b>Síntesis.pdf</b>  
 
 </template>
 
